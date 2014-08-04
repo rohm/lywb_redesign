@@ -1,0 +1,3005 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UBlog\n"
+"POT-Creation-Date: 2014-05-28 11:51+0530\n"
+"PO-Revision-Date: 2014-05-28 11:51+0530\n"
+"Last-Translator: \n"
+"Language-Team: BloomPixel\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _e;__;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:7
+msgid "Oops, This Page Could Not Be Found!"
+msgstr ""
+
+#: ../404.php:8
+msgid "404"
+msgstr ""
+
+#: ../404.php:9
+msgid "Back to Homepage"
+msgstr ""
+
+#: ../404.php:11
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../archive.php:18 ../archive.php:20
+msgid " Archive"
+msgstr ""
+
+#: ../archive.php:22
+msgid "Search Results for:"
+msgstr ""
+
+#: ../archive.php:24
+msgid "Author Archive"
+msgstr ""
+
+#: ../archive.php:26
+msgid "Daily Archive:"
+msgstr ""
+
+#: ../archive.php:28
+msgid "Monthly Archive:"
+msgstr ""
+
+#: ../archive.php:30
+msgid "Yearly Archive:"
+msgstr ""
+
+#: ../archive.php:43 ../author.php:48 ../page-nosidebar.php:39 ../page.php:42
+#: ../search.php:25 ../single.php:141 ../template-archive.php:26
+msgid "Nothing Found"
+msgstr ""
+
+#: ../archive.php:53 ../author.php:58 ../index.php:62 ../search.php:35
+msgid "Older posts"
+msgstr ""
+
+#: ../archive.php:54 ../author.php:59 ../index.php:63 ../search.php:36
+msgid "Newer posts"
+msgstr ""
+
+#: ../author.php:16
+msgid "Author Description"
+msgstr ""
+
+#: ../comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:13
+msgid "No Comments"
+msgstr ""
+
+#: ../comments.php:13 ../inc/post-meta.php:10
+msgid "1 Comment"
+msgstr ""
+
+#: ../comments.php:13 ../inc/post-meta.php:10
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:47
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../comments.php:52
+msgid "Name "
+msgstr ""
+
+#: ../comments.php:58
+msgid "Email "
+msgstr ""
+
+#: ../comments.php:64
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:68
+msgid "Comments "
+msgstr ""
+
+#: ../comments.php:69
+msgid "Submit "
+msgstr ""
+
+#: ../content-audio.php:17 ../content-gallery.php:17 ../content-image.php:17
+#: ../content-link.php:17 ../content-status.php:17 ../content-video.php:17
+#: ../content.php:17
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: ../content-audio.php:112 ../content-gallery.php:83 ../content-image.php:67
+#: ../content-link.php:76 ../content-status.php:90 ../content-video.php:84
+#: ../content.php:86
+msgid "Read More"
+msgstr ""
+
+#: ../content.php:70
+msgid "Pages:"
+msgstr ""
+
+#: ../functions.php:29
+msgid "Main Menu"
+msgstr ""
+
+#: ../functions.php:30
+msgid "Secondary Menu"
+msgstr ""
+
+#: ../functions.php:628
+#, php-format
+msgid "<cite class=\"fn uppercase\">%s</cite>"
+msgstr ""
+
+#: ../functions.php:635
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:642
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions.php:642
+msgid "(Edit)"
+msgstr ""
+
+#: ../functions.php:734 ../options/settings/sample-config.php:1315
+msgid "Social Profiles"
+msgstr ""
+
+#: ../functions.php:738 ../inc/meta-box/meta-boxes.php:366
+#: ../options/settings/sample-config.php:1320
+msgid "Facebook"
+msgstr ""
+
+#: ../functions.php:741
+msgid "Enter your facebook profile URL."
+msgstr ""
+
+#: ../functions.php:745 ../inc/meta-box/meta-boxes.php:365
+#: ../options/settings/sample-config.php:1328
+msgid "Twitter"
+msgstr ""
+
+#: ../functions.php:748
+msgid "Enter your twitter profile URL."
+msgstr ""
+
+#: ../functions.php:752
+msgid "Google+"
+msgstr ""
+
+#: ../functions.php:755
+msgid "Enter your Google+ profile URL."
+msgstr ""
+
+#: ../functions.php:759
+msgid "LinkedIn"
+msgstr ""
+
+#: ../functions.php:762
+msgid "Enter your LinkedIn profile URL."
+msgstr ""
+
+#: ../functions.php:766 ../options/settings/sample-config.php:1360
+msgid "Pinterest"
+msgstr ""
+
+#: ../functions.php:769
+msgid "Enter your Pinterest profile URL."
+msgstr ""
+
+#: ../functions.php:773
+msgid "Dribbble"
+msgstr ""
+
+#: ../functions.php:776
+msgid "Enter your Dribbble profile URL."
+msgstr ""
+
+#: ../index.php:51
+msgid "There has been an error."
+msgstr ""
+
+#: ../index.php:52
+msgid ""
+"We apologize for any inconvenience, please hit back on your browser or use "
+"the search form below."
+msgstr ""
+
+#: ../search.php:15
+msgid "Search Results"
+msgstr ""
+
+#: ../searchform.php:3
+msgid "Search Now"
+msgstr ""
+
+#: ../single.php:52
+msgid "Previous Article"
+msgstr ""
+
+#: ../single.php:55
+msgid "Next Article"
+msgstr ""
+
+#: ../single.php:96 ../options/settings/sample-config.php:1213
+msgid "Related Posts"
+msgstr ""
+
+#: ../template-archive.php:33 ../inc/widgets/widget-recent-posts.php:117
+msgid "Recent Posts"
+msgstr ""
+
+#: ../template-archive.php:39
+msgid "Archives by Categories"
+msgstr ""
+
+#: ../template-archive.php:45
+msgid "Archives by Month"
+msgstr ""
+
+#: ../template-archive.php:51
+msgid "Archives by Year"
+msgstr ""
+
+#: ../template-archive.php:57
+msgid "Archives by Tags"
+msgstr ""
+
+#: ../template-archive.php:68 ../template-sitemap.php:42
+#: ../template-sitemap.php:48
+msgid "Authors"
+msgstr ""
+
+#: ../template-sitemap.php:15
+msgid "Sitemap"
+msgstr ""
+
+#: ../template-sitemap.php:19
+msgid "Categories"
+msgstr ""
+
+#: ../template-sitemap.php:25
+msgid "Pages"
+msgstr ""
+
+#: ../template-sitemap.php:31 ../options/settings/sample-config.php:212
+msgid "Tags"
+msgstr ""
+
+#: ../inc/post-meta.php:4
+msgid "<i class=\"fa fa-user\"></i> "
+msgstr ""
+
+#: ../inc/post-meta.php:10
+msgid "Leave a Comment"
+msgstr ""
+
+#: ../inc/post-meta.php:10
+msgid "Comments are off"
+msgstr ""
+
+#: ../inc/post-meta.php:13
+msgid "Edit"
+msgstr ""
+
+#: ../inc/category-meta/Tax-meta-class/class-usage.php:28
+msgid "Category Primary Color "
+msgstr ""
+
+#: ../inc/category-meta/Tax-meta-class/class-usage.php:31
+msgid "Background Image "
+msgstr ""
+
+#: ../inc/category-meta/Tax-meta-class/class-usage.php:34
+msgid "Background Repeat "
+msgstr ""
+
+#: ../inc/category-meta/Tax-meta-class/class-usage.php:37
+msgid "Background Attachment "
+msgstr ""
+
+#: ../inc/category-meta/Tax-meta-class/class-usage.php:40
+msgid "Background Position "
+msgstr ""
+
+#: ../inc/category-meta/Tax-meta-class/Tax-meta-class.php:250
+msgid "Delete this image"
+msgstr ""
+
+#: ../inc/category-meta/Tax-meta-class/Tax-meta-class.php:250
+#: ../inc/category-meta/Tax-meta-class/Tax-meta-class.php:882
+#: ../options/ReduxCore/inc/fields/group/field_group.php:125
+msgid "Delete"
+msgstr ""
+
+#: ../inc/category-meta/Tax-meta-class/Tax-meta-class.php:357
+msgid "Cannot delete file. Something's wrong."
+msgstr ""
+
+#: ../inc/category-meta/Tax-meta-class/Tax-meta-class.php:582
+#: ../inc/category-meta/Tax-meta-class/Tax-meta-class.php:629
+#: ../inc/meta-box/inc/fields/file-input.php:42
+#: ../options/ReduxCore/inc/fields/background/field_background.php:312
+#: ../options/ReduxCore/inc/fields/media/field_media.php:161
+#: ../options/ReduxCore/inc/fields/multi_text/field_multi_text.php:72
+#: ../options/ReduxCore/inc/fields/multi_text/field_multi_text.php:76
+#: ../options/ReduxCore/inc/fields/multi_text/field_multi_text.php:79
+#: ../options/ReduxCore/inc/fields/slides/field_slides.php:136
+#: ../options/ReduxCore/inc/fields/slides/field_slides.php:193
+msgid "Remove"
+msgstr ""
+
+#: ../inc/category-meta/Tax-meta-class/Tax-meta-class.php:595
+#: ../options/ReduxCore/inc/fields/group/field_group.php:129
+msgid "Add"
+msgstr ""
+
+#: ../inc/category-meta/Tax-meta-class/Tax-meta-class.php:878
+msgid "Uploaded files"
+msgstr ""
+
+#: ../inc/category-meta/Tax-meta-class/Tax-meta-class.php:889
+msgid "Upload new files"
+msgstr ""
+
+#: ../inc/category-meta/Tax-meta-class/Tax-meta-class.php:895
+msgid "Add more files"
+msgstr ""
+
+#: ../inc/category-meta/Tax-meta-class/Tax-meta-class.php:947
+msgid "Select a color"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:35
+msgid "Standard Post Options"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:45 ../inc/meta-box/meta-boxes.php:77
+#: ../inc/meta-box/meta-boxes.php:159 ../inc/meta-box/meta-boxes.php:228
+#: ../inc/meta-box/meta-boxes.php:273 ../inc/meta-box/meta-boxes.php:327
+#: ../inc/meta-box/meta-boxes.php:384
+msgid "Hide Post Excerpt on Homepage"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:48 ../inc/meta-box/meta-boxes.php:80
+#: ../inc/meta-box/meta-boxes.php:162 ../inc/meta-box/meta-boxes.php:231
+#: ../inc/meta-box/meta-boxes.php:276 ../inc/meta-box/meta-boxes.php:330
+#: ../inc/meta-box/meta-boxes.php:387
+msgid "Check this option to hide post excerpt on homepage."
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:54 ../inc/meta-box/meta-boxes.php:86
+msgid "Hide Featured Image?"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:57 ../inc/meta-box/meta-boxes.php:89
+msgid "Check this option to hide featured image on this post."
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:67
+msgid "Image Post Options"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:99
+msgid "Audio Post Options"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:109
+msgid "Audio File Host"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:110
+msgid ""
+"Select host of your audio file. <br> <strong>Note:</strong> If you couldn't "
+"find host of your audio file in the dropdown list, you can paste the embed "
+"code of file in the \"Audio Embed Code\" box."
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:114
+msgid "SoundCloud"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:115
+msgid "MixCloud"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:119 ../inc/meta-box/meta-boxes.php:205
+#: ../inc/meta-box/meta-boxes.php:323 ../inc/meta-box/meta-boxes.php:371
+#: ../inc/meta-box/demo/demo.php:101 ../inc/meta-box/demo/demo.php:288
+msgid "Select an Item"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:123
+msgid "Audio File URL (Soundcloud or Mixcloud) "
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:125
+msgid "Enter URL of your audio file here."
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:132
+msgid "Audio Embed Code"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:133
+msgid "Enter embed code of your audio file here."
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:141
+msgid "MP3 Audio"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:143
+msgid "Enter URL of your mp3 audio file here."
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:150
+msgid "OGG Audio"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:152
+msgid "Enter URL of your ogg audio file here."
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:168
+msgid "Hide Audio?"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:171
+msgid "Check this option to hide audio on this post."
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:181
+msgid "Video Post Options"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:191
+msgid "Video File Host"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:193
+msgid ""
+"Select host of your video file. <br> <strong>Note:</strong> If you couldn't "
+"find host of your video file in the dropdown list, you can paste the embed "
+"code of file in the \"Video Embed Code\" box."
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:197 ../inc/widgets/widget-video.php:133
+msgid "YouTube"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:198 ../inc/widgets/widget-video.php:134
+msgid "Vimeo"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:199 ../inc/widgets/widget-video.php:135
+msgid "Dailymotion"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:200 ../inc/widgets/widget-video.php:136
+msgid "Metacafe"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:209
+msgid "Video ID "
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:211
+msgid ""
+"Paste ID of your YouTube or Vimeo video here (For example: http://www."
+"youtube.com/watch?v=<strong>dQw4w9WgXcQ</strong>)."
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:219
+msgid "Video Embed Code (YouTube, Vimeo etc) "
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:220
+msgid "Paste your YouTube or Vimeo embed code here."
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:237
+msgid "Hide Video?"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:240
+msgid "Check this option to hide featured video on this post."
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:250
+msgid "Link Post Options"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:258 ../inc/meta-box/demo/demo.php:262
+#: ../options/ReduxCore/inc/fields/slides/field_slides.php:156
+#: ../options/ReduxCore/inc/fields/slides/field_slides.php:210
+msgid "URL"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:260
+msgid "Paste URL here."
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:267
+msgid "Link Background Color"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:282
+msgid "Hide Link Box?"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:285
+msgid "Check this option to hide link box on this post."
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:295
+msgid "Gallery Post Options"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:304
+msgid "Upload Images for Gallery"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:311
+msgid "Gallery Type"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:313
+msgid "Select the type of gallery you want to show."
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:317 ../inc/meta-box/demo/demo.php:156
+#: ../inc/meta-box/demo/slider.php:9
+msgid "Slider"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:318
+msgid "Tiled"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:336
+msgid "Hide Gallery?"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:339
+msgid "Check this option to hide gallery on this post."
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:349
+msgid "Status Post Options"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:359
+msgid "Status Type"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:361
+msgid "Select the type of status you want to publish."
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:375
+msgid "Status Link"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:377 ../inc/meta-box/meta-boxes.php:418
+msgid "Paste source name of the quote here."
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:393
+msgid "Hide Status?"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:396
+msgid "Check this option to hide status on this post."
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:406
+msgid "Quote Post Options"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:416
+msgid "Source Name"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:425
+msgid "Source URL"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:427
+msgid "Paste source URL of quote here."
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:434
+msgid "Quote Background Color"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:442
+msgid "Layout Options"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:447 ../inc/meta-box/demo/image-select.php:10
+msgid "Layout"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:463
+msgid "Hide Related Posts for this Post?"
+msgstr ""
+
+#: ../inc/meta-box/meta-boxes.php:465
+msgid "Check this option to hide related posts for this post."
+msgstr ""
+
+#: ../inc/meta-box/demo/all-custom-post-types.php:20
+msgid "Personal Information"
+msgstr ""
+
+#: ../inc/meta-box/demo/all-custom-post-types.php:25
+msgid "Full name"
+msgstr ""
+
+#: ../inc/meta-box/demo/better-include.php:16
+#: ../inc/meta-box/demo/include-by-ID-or-page-template.php:8
+msgid "Meta Box Title"
+msgstr ""
+
+#: ../inc/meta-box/demo/better-include.php:19
+#: ../inc/meta-box/demo/include-by-ID-or-page-template.php:14
+msgid "Your images"
+msgstr ""
+
+#: ../inc/meta-box/demo/date-time-js-options.php:11
+msgid "Date Time Picker With JS Options"
+msgstr ""
+
+#: ../inc/meta-box/demo/date-time-js-options.php:15
+msgid "Date"
+msgstr ""
+
+#: ../inc/meta-box/demo/date-time-js-options.php:21
+#: ../inc/meta-box/demo/demo.php:188
+msgid "(yyyy-mm-dd)"
+msgstr ""
+
+#: ../inc/meta-box/demo/date-time-js-options.php:23
+msgid "Select Date"
+msgstr ""
+
+#: ../inc/meta-box/demo/date-time-js-options.php:24
+#: ../inc/meta-box/demo/demo.php:189
+msgid "yy-mm-dd"
+msgstr ""
+
+#: ../inc/meta-box/demo/date-time-js-options.php:30
+msgid "Datetime"
+msgstr ""
+
+#: ../inc/meta-box/demo/date-time-js-options.php:41
+msgid "Time"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:38
+msgid "Standard Fields"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:57
+msgid "Text"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:61
+msgid "Text description"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:64
+msgid "Default text value"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:70
+msgid "Checkbox"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:78
+msgid "Radio"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:84 ../inc/meta-box/demo/demo.php:95
+#: ../inc/meta-box/demo/demo.php:237 ../inc/meta-box/demo/demo.php:282
+msgid "Label1"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:85 ../inc/meta-box/demo/demo.php:96
+#: ../inc/meta-box/demo/demo.php:238 ../inc/meta-box/demo/demo.php:283
+msgid "Label2"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:90 ../inc/meta-box/demo/demo.php:277
+#: ../inc/meta-box/inc/fields/file-input.php:40
+msgid "Select"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:108
+msgid "Hidden value"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:112
+#: ../options/ReduxCore/inc/fields/password/field_password.php:59
+msgid "Password"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:118
+msgid "Textarea"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:119
+msgid "Textarea description"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:136
+msgid "Password is required"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:137
+msgid "Password must be at least 7 characters"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:145
+msgid "Advanced Fields"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:151
+msgid "Heading"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:161 ../inc/meta-box/demo/slider.php:14
+msgid "$"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:162 ../inc/meta-box/demo/slider.php:15
+msgid " USD"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:173
+msgid "Number"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:182
+msgid "Date picker"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:197
+msgid "Datetime picker"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:211
+msgid "Time picker"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:226
+msgid "Color picker"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:232
+msgid "Checkbox list"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:243
+msgid "Email"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:245
+msgid "Email description"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:251
+msgid "Range"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:253
+msgid "Range description"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:264
+msgid "URL description"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:270
+msgid "oEmbed"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:272
+msgid "oEmbed description"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:292
+msgid "Taxonomy"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:306
+msgid "Posts (Pages)"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:322
+msgid "WYSIWYG / Rich Text Editor"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:327
+msgid "WYSIWYG default value"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:343 ../inc/meta-box/demo/force-delete.php:15
+msgid "File Upload"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:349
+msgid "File Advanced Upload"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:357 ../inc/meta-box/demo/force-delete.php:22
+msgid "Image Upload"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:363 ../inc/meta-box/demo/force-delete.php:28
+msgid "Thickbox Image Upload"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:369 ../inc/meta-box/demo/force-delete.php:35
+msgid "Plupload Image Upload"
+msgstr ""
+
+#: ../inc/meta-box/demo/demo.php:376
+msgid "Image Advanced Upload"
+msgstr ""
+
+#: ../inc/meta-box/demo/force-delete.php:11
+msgid "Test Meta Box"
+msgstr ""
+
+#: ../inc/meta-box/demo/image-select.php:6
+msgid "Image Select Demo"
+msgstr ""
+
+#: ../inc/meta-box/demo/map.php:9
+msgid "Google Map"
+msgstr ""
+
+#: ../inc/meta-box/demo/map.php:13
+msgid "Address"
+msgstr ""
+
+#: ../inc/meta-box/demo/map.php:15
+msgid "Hanoi, Vietnam"
+msgstr ""
+
+#: ../inc/meta-box/demo/map.php:19
+msgid "Location"
+msgstr ""
+
+#: ../inc/meta-box/demo/oembed.php:6
+msgid "oEmbed Demo"
+msgstr ""
+
+#: ../inc/meta-box/demo/oembed.php:10
+msgid "oEmbed(s)"
+msgstr ""
+
+#: ../inc/meta-box/demo/slider.php:6
+msgid "Slider Demo"
+msgstr ""
+
+#: ../inc/meta-box/demo/url.php:6
+msgid "URL Demo"
+msgstr ""
+
+#: ../inc/meta-box/demo/url.php:10
+msgid "URL(s)"
+msgstr ""
+
+#: ../inc/meta-box/inc/field.php:185
+msgid "+"
+msgstr ""
+
+#: ../inc/meta-box/inc/field.php:202
+msgid "&#8211;"
+msgstr ""
+
+#: ../inc/meta-box/inc/meta-box.php:241
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: ../inc/meta-box/inc/fields/button.php:35
+msgid "Click me"
+msgstr ""
+
+#: ../inc/meta-box/inc/fields/file-advanced.php:23
+msgid "Select Files"
+msgstr ""
+
+#: ../inc/meta-box/inc/fields/file-input.php:17
+msgid "Select File"
+msgstr ""
+
+#: ../inc/meta-box/inc/fields/file.php:19
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: ../inc/meta-box/inc/fields/file.php:20
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: ../inc/meta-box/inc/fields/file.php:70
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: ../inc/meta-box/inc/fields/image-advanced.php:22
+msgid "Select Images"
+msgstr ""
+
+#: ../inc/meta-box/inc/fields/map.php:48
+msgid "Find Address"
+msgstr ""
+
+#: ../inc/meta-box/inc/fields/oembed.php:54
+msgid "Embed HTML not available."
+msgstr ""
+
+#: ../inc/meta-box/inc/fields/oembed.php:76
+msgid "Preview"
+msgstr ""
+
+#: ../inc/meta-box/inc/fields/post.php:52
+msgid "Post"
+msgstr ""
+
+#: ../inc/meta-box/inc/fields/post.php:66
+#: ../inc/meta-box/inc/fields/taxonomy.php:40
+#: ../inc/meta-box/inc/fields/user.php:62
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: ../inc/meta-box/inc/fields/user.php:54
+msgid "User"
+msgstr ""
+
+#: ../inc/widgets/widget-ad125.php:26
+msgid "A widget that displays 125x125 ad"
+msgstr ""
+
+#: ../inc/widgets/widget-ad125.php:28
+msgid "(UBlog) 125x125 Ad Widget"
+msgstr ""
+
+#: ../inc/widgets/widget-ad125.php:129 ../inc/widgets/widget-ad160.php:83
+#: ../inc/widgets/widget-ad300.php:84 ../inc/widgets/widget-cat-posts.php:141
+#: ../inc/widgets/widget-fblikebox.php:132 ../inc/widgets/widget-flickr.php:82
+#: ../inc/widgets/widget-popular-posts.php:137
+#: ../inc/widgets/widget-random-posts.php:137
+#: ../inc/widgets/widget-recent-posts.php:135
+#: ../inc/widgets/widget-tweets.php:125 ../inc/widgets/widget-video.php:114
+msgid "Title:"
+msgstr ""
+
+#: ../inc/widgets/widget-ad125.php:134
+msgid "Ad1 Link URL:"
+msgstr ""
+
+#: ../inc/widgets/widget-ad125.php:139
+msgid "Ad1 Banner URL:"
+msgstr ""
+
+#: ../inc/widgets/widget-ad125.php:145
+msgid "Ad2 Link URL:"
+msgstr ""
+
+#: ../inc/widgets/widget-ad125.php:150
+msgid "Ad2 Banner URL:"
+msgstr ""
+
+#: ../inc/widgets/widget-ad125.php:156
+msgid "Ad3 Link URL:"
+msgstr ""
+
+#: ../inc/widgets/widget-ad125.php:161
+msgid "Ad3 Banner URL:"
+msgstr ""
+
+#: ../inc/widgets/widget-ad125.php:167
+msgid "Ad4 Link URL:"
+msgstr ""
+
+#: ../inc/widgets/widget-ad125.php:172
+msgid "Ad4 Banner URL:"
+msgstr ""
+
+#: ../inc/widgets/widget-ad160.php:26
+msgid "A widget that displays 160x600 ad"
+msgstr ""
+
+#: ../inc/widgets/widget-ad160.php:28
+msgid "(UBlog) 160x600 Ad Widget"
+msgstr ""
+
+#: ../inc/widgets/widget-ad160.php:87 ../inc/widgets/widget-ad300.php:88
+msgid "Ad Link URL:"
+msgstr ""
+
+#: ../inc/widgets/widget-ad160.php:92 ../inc/widgets/widget-ad300.php:93
+msgid "Ad Banner URL:"
+msgstr ""
+
+#: ../inc/widgets/widget-ad300.php:26
+msgid "A widget that displays 300x250 ad"
+msgstr ""
+
+#: ../inc/widgets/widget-ad300.php:28
+msgid "(UBlog) 300x250 Ad Widget"
+msgstr ""
+
+#: ../inc/widgets/widget-cat-posts.php:26
+msgid "A widget that displays the recent posts from a single category"
+msgstr ""
+
+#: ../inc/widgets/widget-cat-posts.php:28
+msgid "(UBlog) Category Posts"
+msgstr ""
+
+#: ../inc/widgets/widget-cat-posts.php:121
+msgid "Category Posts"
+msgstr ""
+
+#: ../inc/widgets/widget-cat-posts.php:145
+#: ../inc/widgets/widget-popular-posts.php:141
+#: ../inc/widgets/widget-random-posts.php:141
+#: ../inc/widgets/widget-recent-posts.php:139
+#: ../inc/widgets/widget-tabs.php:173
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../inc/widgets/widget-cat-posts.php:149
+msgid "Category:"
+msgstr ""
+
+#: ../inc/widgets/widget-cat-posts.php:167
+#: ../inc/widgets/widget-popular-posts.php:147
+#: ../inc/widgets/widget-random-posts.php:147
+#: ../inc/widgets/widget-recent-posts.php:145
+#: ../inc/widgets/widget-tabs.php:179
+msgid "Show Thumbnails"
+msgstr ""
+
+#: ../inc/widgets/widget-cat-posts.php:173
+#: ../inc/widgets/widget-popular-posts.php:153
+#: ../inc/widgets/widget-random-posts.php:153
+#: ../inc/widgets/widget-recent-posts.php:151
+#: ../inc/widgets/widget-tabs.php:185
+msgid "Show Categories"
+msgstr ""
+
+#: ../inc/widgets/widget-cat-posts.php:179
+#: ../inc/widgets/widget-popular-posts.php:159
+#: ../inc/widgets/widget-random-posts.php:159
+#: ../inc/widgets/widget-recent-posts.php:157
+#: ../inc/widgets/widget-tabs.php:191
+msgid "Show Post Author"
+msgstr ""
+
+#: ../inc/widgets/widget-cat-posts.php:185
+#: ../inc/widgets/widget-popular-posts.php:165
+#: ../inc/widgets/widget-random-posts.php:165
+#: ../inc/widgets/widget-recent-posts.php:163
+#: ../inc/widgets/widget-tabs.php:197
+msgid "Show Post Date"
+msgstr ""
+
+#: ../inc/widgets/widget-cat-posts.php:191
+#: ../inc/widgets/widget-popular-posts.php:171
+#: ../inc/widgets/widget-random-posts.php:171
+#: ../inc/widgets/widget-recent-posts.php:169
+#: ../inc/widgets/widget-tabs.php:203
+msgid "Show Post Comments"
+msgstr ""
+
+#: ../inc/widgets/widget-fblikebox.php:29
+msgid "A widget that displays a facebook like box from your facebook page."
+msgstr ""
+
+#: ../inc/widgets/widget-fblikebox.php:135
+msgid "Page name (http://www.facebook.com/[page_name])"
+msgstr ""
+
+#: ../inc/widgets/widget-fblikebox.php:138
+#: ../options/ReduxCore/inc/fields/dimensions/field_dimensions.php:131
+msgid "Width"
+msgstr ""
+
+#: ../inc/widgets/widget-fblikebox.php:141
+msgid "Color Scheme"
+msgstr ""
+
+#: ../inc/widgets/widget-fblikebox.php:147
+msgid "Show Faces"
+msgstr ""
+
+#: ../inc/widgets/widget-fblikebox.php:150
+msgid "Show Stream"
+msgstr ""
+
+#: ../inc/widgets/widget-fblikebox.php:152
+msgid "Show Header"
+msgstr ""
+
+#: ../inc/widgets/widget-flickr.php:26
+msgid "A widget that displays flickr photos"
+msgstr ""
+
+#: ../inc/widgets/widget-flickr.php:28
+msgid "(UBlog) Flickr Widget"
+msgstr ""
+
+#: ../inc/widgets/widget-flickr.php:86
+msgid ""
+"Your Flickr User ID: <small>You can find your ID <a href=\"http://idgettr."
+"com/\" target=\"_blank\">here</a></small>"
+msgstr ""
+
+#: ../inc/widgets/widget-flickr.php:91
+msgid "Number of photos to show:"
+msgstr ""
+
+#: ../inc/widgets/widget-popular-posts.php:26
+msgid "A widget that displays the popular posts of your blog"
+msgstr ""
+
+#: ../inc/widgets/widget-popular-posts.php:28
+msgid "(UBlog) Popular Posts"
+msgstr ""
+
+#: ../inc/widgets/widget-popular-posts.php:118
+#: ../inc/widgets/widget-tabs.php:156
+msgid "Popular Posts"
+msgstr ""
+
+#: ../inc/widgets/widget-random-posts.php:26
+msgid "A widget that displays the random posts of your blog"
+msgstr ""
+
+#: ../inc/widgets/widget-random-posts.php:28
+msgid "(UBlog) Random Posts"
+msgstr ""
+
+#: ../inc/widgets/widget-random-posts.php:118
+msgid "Random Posts"
+msgstr ""
+
+#: ../inc/widgets/widget-recent-posts.php:26
+msgid "A widget that displays the recent posts of your blog"
+msgstr ""
+
+#: ../inc/widgets/widget-recent-posts.php:28
+msgid "(UBlog) Recent Posts"
+msgstr ""
+
+#: ../inc/widgets/widget-slider.php:22
+msgid "A widget that displays the slider"
+msgstr ""
+
+#: ../inc/widgets/widget-slider.php:24
+msgid "(UBlog) Slider Widget"
+msgstr ""
+
+#: ../inc/widgets/widget-slider.php:112
+msgid "Number of posts:"
+msgstr ""
+
+#: ../inc/widgets/widget-slider.php:117
+msgid "Category: "
+msgstr ""
+
+#: ../inc/widgets/widget-social.php:26
+msgid "A widget that displays links to your social profiles"
+msgstr ""
+
+#: ../inc/widgets/widget-social.php:28
+msgid "(UBlog) Social Widget"
+msgstr ""
+
+#: ../inc/widgets/widget-social.php:134
+msgid "Social Media"
+msgstr ""
+
+#: ../inc/widgets/widget-social.php:155
+#: ../options/ReduxCore/inc/fields/slides/field_slides.php:148
+#: ../options/ReduxCore/inc/fields/slides/field_slides.php:203
+msgid "Title"
+msgstr ""
+
+#: ../inc/widgets/widget-social.php:162
+msgid "Open Links in New Window"
+msgstr ""
+
+#: ../inc/widgets/widget-social.php:167
+msgid "Facebook URL"
+msgstr ""
+
+#: ../inc/widgets/widget-social.php:172
+msgid "Twitter URL"
+msgstr ""
+
+#: ../inc/widgets/widget-social.php:177
+msgid "Google+ URL"
+msgstr ""
+
+#: ../inc/widgets/widget-social.php:182
+msgid "RSS URL"
+msgstr ""
+
+#: ../inc/widgets/widget-social.php:187
+msgid "Pinterest URL"
+msgstr ""
+
+#: ../inc/widgets/widget-social.php:192
+msgid "LinkedIn URL"
+msgstr ""
+
+#: ../inc/widgets/widget-social.php:197
+msgid "Flickr URL"
+msgstr ""
+
+#: ../inc/widgets/widget-social.php:202
+msgid "Instagram URL"
+msgstr ""
+
+#: ../inc/widgets/widget-social.php:207
+msgid "YouTube URL"
+msgstr ""
+
+#: ../inc/widgets/widget-social.php:212
+msgid "tumblr URL"
+msgstr ""
+
+#: ../inc/widgets/widget-social.php:217
+msgid "Dribbble URL"
+msgstr ""
+
+#: ../inc/widgets/widget-social.php:222
+msgid "Xing URL"
+msgstr ""
+
+#: ../inc/widgets/widget-subscribe.php:26
+msgid "A widget that displays the subscribe box"
+msgstr ""
+
+#: ../inc/widgets/widget-subscribe.php:28
+msgid "(UBlog) Subscribe Widget"
+msgstr ""
+
+#: ../inc/widgets/widget-subscribe.php:77
+#: ../options/ReduxCore/inc/tracking.php:158
+msgid "Subscribe"
+msgstr ""
+
+#: ../inc/widgets/widget-tabs.php:26
+msgid "A widget that displays tabbed widget on your blog"
+msgstr ""
+
+#: ../inc/widgets/widget-tabs.php:28
+msgid "(UBlog) Tabs Widget"
+msgstr ""
+
+#: ../inc/widgets/widget-tabs.php:46
+msgid "Popular"
+msgstr ""
+
+#: ../inc/widgets/widget-tabs.php:47
+msgid "Recent"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:26
+msgid "A widget that displays recent tweets from your Twitter profile"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:28
+msgid "(UBlog) Tweets Widget"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:129
+msgid "Widget ID:"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:134 ../inc/widgets/widget-video.php:119
+msgid "Width:"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:139 ../inc/widgets/widget-video.php:123
+msgid "Height:"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:143
+msgid "Link Color (Hex Code):"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:147
+msgid "Border Color (Hex Code):"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:151
+msgid "Layout Options:"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:156
+msgid "No Header"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:162
+msgid "No Footer"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:168
+msgid "No Borders"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:174
+msgid "No Scrollbar"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:180
+msgid "Transparent Background"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:184
+msgid "Timeline Theme:"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:186
+msgid "Light"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:187
+msgid "Dark"
+msgstr ""
+
+#: ../inc/widgets/widget-video.php:26
+msgid "A widget that displays the video"
+msgstr ""
+
+#: ../inc/widgets/widget-video.php:28
+msgid "(UBlog) Video Widget"
+msgstr ""
+
+#: ../inc/widgets/widget-video.php:103
+msgid "Latest Video"
+msgstr ""
+
+#: ../inc/widgets/widget-video.php:127
+msgid "Video ID:"
+msgstr ""
+
+#: ../inc/widgets/widget-video.php:131
+msgid "Video Host:"
+msgstr ""
+
+#: ../inc/widgets/widget-video.php:137
+msgid "Veoh"
+msgstr ""
+
+#: ../inc/widgets/widget-video.php:138
+msgid "Blip.tv"
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:257
+#, php-format
+msgid "Options panel created using %1$s"
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:257
+msgid "Redux Framework"
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:261
+#: ../options/ReduxCore/framework.php:265
+#: ../options/ReduxCore/framework.php:1326
+msgid "Options"
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:1265
+#: ../options/ReduxCore/framework.php:1266
+#: ../options/ReduxCore/framework.php:3205
+#: ../options/ReduxCore/framework.php:3277
+msgid "System Info"
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:1742
+#: ../options/ReduxCore/extensions/customizer/extension_customizer.php:445
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:1743
+#: ../options/ReduxCore/extensions/customizer/extension_customizer.php:446
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:1744
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:1745
+#: ../options/ReduxCore/extensions/customizer/extension_customizer.php:447
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:1746
+msgid "Please Wait"
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:1891
+msgid "Hints"
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:1892
+msgid "<p>"
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:2006
+msgid "Default"
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:2979
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:3051
+msgid "Expand"
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:3053
+#: ../options/ReduxCore/framework.php:3331
+msgid "Save Changes"
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:3055
+#: ../options/ReduxCore/framework.php:3333
+msgid "Reset Section"
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:3057
+#: ../options/ReduxCore/framework.php:3335
+msgid "Reset All"
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:3060
+#: ../options/ReduxCore/framework.php:3338
+msgid "Working..."
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:3078
+msgid "Settings Imported!"
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:3091
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:3103
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:3115
+msgid "Settings Saved!"
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:3131
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:3138
+msgid "error(s) were found!"
+msgstr ""
+
+#: ../options/ReduxCore/framework.php:3145
+msgid "warning(s) were found!"
+msgstr ""
+
+#: ../options/ReduxCore/extensions/customizer/extension_customizer.php:480
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: ../options/ReduxCore/extensions/customizer/extension_customizer.php:481
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: ../options/ReduxCore/extensions/customizer/extension_customizer.php:482
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+#: ../options/ReduxCore/extensions/edd/extension_edd.php:77
+#: ../options/ReduxCore/extensions/edd/extension_edd.php:119
+#: ../options/ReduxCore/extensions/edd/extension_edd.php:176
+#: ../options/ReduxCore/extensions/edd/edd_license/field_edd_license.php:116
+msgid "Valid"
+msgstr ""
+
+#: ../options/ReduxCore/extensions/edd/extension_edd.php:170
+#: ../options/ReduxCore/extensions/edd/edd_license/field_edd_license.php:110
+#: ../options/ReduxCore/extensions/edd/edd_license/field_edd_license.php:118
+msgid "Not Activated"
+msgstr ""
+
+#: ../options/ReduxCore/extensions/edd/extension_edd.php:173
+#: ../options/ReduxCore/extensions/edd/edd_license/field_edd_license.php:114
+msgid "Deactivated"
+msgstr ""
+
+#: ../options/ReduxCore/extensions/edd/extension_edd.php:179
+msgid "Not Valid"
+msgstr ""
+
+#: ../options/ReduxCore/extensions/edd/edd_license/EDD_License_Handler.php:112
+#, php-format
+msgid "%1$s License Key"
+msgstr ""
+
+#: ../options/ReduxCore/extensions/edd/edd_license/EDD_License_Handler.php:218
+#: ../options/ReduxCore/extensions/edd/edd_license/field_edd_license.php:144
+msgid "Deactivate License"
+msgstr ""
+
+#: ../options/ReduxCore/extensions/edd/edd_license/EDD_SL_Theme_Updater.php:54
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: ../options/ReduxCore/extensions/edd/edd_license/field_edd_license.php:124
+msgid "Verifying license..."
+msgstr ""
+
+#: ../options/ReduxCore/extensions/edd/edd_license/field_edd_license.php:125
+msgid "Status"
+msgstr ""
+
+#: ../options/ReduxCore/extensions/edd/edd_license/field_edd_license.php:134
+msgid "Verify License"
+msgstr ""
+
+#: ../options/ReduxCore/extensions/edd/edd_license/field_edd_license.php:139
+msgid "Activate License"
+msgstr ""
+
+#: ../options/ReduxCore/inc/class.redux_functions.php:254
+msgid "Dismiss"
+msgstr ""
+
+#: ../options/ReduxCore/inc/debug.php:43 ../options/ReduxCore/inc/debug.php:71
+#: ../options/ReduxCore/inc/debug.php:78 ../options/ReduxCore/inc/debug.php:79
+msgid "Options Object"
+msgstr ""
+
+#: ../options/ReduxCore/inc/debug.php:56
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: ../options/ReduxCore/inc/import_export.php:81
+#: ../options/ReduxCore/inc/fields/import_export/import_export.php:81
+msgid "Import / Export Options"
+msgstr ""
+
+#: ../options/ReduxCore/inc/import_export.php:84
+#: ../options/ReduxCore/inc/fields/import_export/import_export.php:84
+msgid "Import Options"
+msgstr ""
+
+#: ../options/ReduxCore/inc/import_export.php:85
+#: ../options/ReduxCore/inc/fields/import_export/import_export.php:85
+msgid "Import from file"
+msgstr ""
+
+#: ../options/ReduxCore/inc/import_export.php:85
+#: ../options/ReduxCore/inc/fields/import_export/import_export.php:85
+msgid "Import from URL"
+msgstr ""
+
+#: ../options/ReduxCore/inc/import_export.php:88
+#: ../options/ReduxCore/inc/fields/import_export/import_export.php:88
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: ../options/ReduxCore/inc/import_export.php:93
+#: ../options/ReduxCore/inc/fields/import_export/import_export.php:93
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: ../options/ReduxCore/inc/import_export.php:97
+#: ../options/ReduxCore/inc/fields/import_export/import_export.php:97
+msgid "Import"
+msgstr ""
+
+#: ../options/ReduxCore/inc/import_export.php:97
+#: ../options/ReduxCore/inc/fields/import_export/import_export.php:97
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: ../options/ReduxCore/inc/import_export.php:100
+#: ../options/ReduxCore/inc/fields/import_export/import_export.php:100
+msgid "Export Options"
+msgstr ""
+
+#: ../options/ReduxCore/inc/import_export.php:103
+#: ../options/ReduxCore/inc/fields/import_export/import_export.php:103
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: ../options/ReduxCore/inc/import_export.php:107
+#: ../options/ReduxCore/inc/fields/import_export/import_export.php:107
+msgid "Copy"
+msgstr ""
+
+#: ../options/ReduxCore/inc/import_export.php:107
+#: ../options/ReduxCore/inc/fields/import_export/import_export.php:107
+msgid "Download"
+msgstr ""
+
+#: ../options/ReduxCore/inc/import_export.php:107
+#: ../options/ReduxCore/inc/fields/import_export/import_export.php:107
+msgid "Copy Link"
+msgstr ""
+
+#: ../options/ReduxCore/inc/import_export.php:143
+#: ../options/ReduxCore/inc/import_export.php:152
+#: ../options/ReduxCore/inc/import_export.php:153
+#: ../options/ReduxCore/inc/fields/import_export/import_export.php:143
+#: ../options/ReduxCore/inc/fields/import_export/import_export.php:152
+#: ../options/ReduxCore/inc/fields/import_export/import_export.php:153
+#: ../options/settings/sample-config.php:1479
+msgid "Import / Export"
+msgstr ""
+
+#: ../options/ReduxCore/inc/tracking.php:130
+msgid "Help improve Our Panel"
+msgstr ""
+
+#: ../options/ReduxCore/inc/tracking.php:131
+msgid ""
+"Please helps us improve our panel by allowing us to gather anonymous usage "
+"stats so we know which configurations, plugins and themes to test to ensure "
+"compatability."
+msgstr ""
+
+#: ../options/ReduxCore/inc/tracking.php:136
+msgid "Allow tracking"
+msgstr ""
+
+#: ../options/ReduxCore/inc/tracking.php:141
+msgid "Do not allow tracking"
+msgstr ""
+
+#: ../options/ReduxCore/inc/tracking.php:152
+msgid "Welcome to the Redux Demo Panel"
+msgstr ""
+
+#: ../options/ReduxCore/inc/tracking.php:153
+msgid "Getting Started"
+msgstr ""
+
+#: ../options/ReduxCore/inc/tracking.php:153
+#, php-format
+msgid ""
+"This panel demonstrates the many features of Redux.  Before digging in, we "
+"suggest you get up to speed by reviewing %1$s."
+msgstr ""
+
+#: ../options/ReduxCore/inc/tracking.php:153
+msgid "our documentation"
+msgstr ""
+
+#: ../options/ReduxCore/inc/tracking.php:154
+msgid "Redux Generator"
+msgstr ""
+
+#: ../options/ReduxCore/inc/tracking.php:154
+#, php-format
+msgid ""
+"Want to get a head start? Use the %1$s. It will create a customized "
+"boilerplate theme or a standalone admin folder complete with all things "
+"Redux (with the help of Underscores and TGM). Save yourself a headache and "
+"try it today."
+msgstr ""
+
+#: ../options/ReduxCore/inc/tracking.php:155
+msgid "Redux Extensions"
+msgstr ""
+
+#: ../options/ReduxCore/inc/tracking.php:155
+#, php-format
+msgid ""
+"Did you know we have extensions, which greatly enhance the features of "
+"Redux?  Visit our %1$s to learn more!"
+msgstr ""
+
+#: ../options/ReduxCore/inc/tracking.php:155
+msgid "extensions directory"
+msgstr ""
+
+#: ../options/ReduxCore/inc/tracking.php:156
+msgid "Like Redux?"
+msgstr ""
+
+#: ../options/ReduxCore/inc/tracking.php:156
+#, php-format
+msgid ""
+"If so, please %1$s and consider making a %2$s to keep development of Redux "
+"moving forward."
+msgstr ""
+
+#: ../options/ReduxCore/inc/tracking.php:156
+msgid "leave us a favorable review on WordPress.org"
+msgstr ""
+
+#: ../options/ReduxCore/inc/tracking.php:156
+msgid "donation"
+msgstr ""
+
+#: ../options/ReduxCore/inc/tracking.php:157
+msgid "Newsletter"
+msgstr ""
+
+#: ../options/ReduxCore/inc/tracking.php:157
+msgid ""
+"If you'd like to keep up to with all things Redux, please subscribe to our "
+"newsletter"
+msgstr ""
+
+#: ../options/ReduxCore/inc/tracking.php:158
+msgid "Email address"
+msgstr ""
+
+#: ../options/ReduxCore/inc/tracking.php:167
+msgid "Close"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/background/field_background.php:119
+#: ../options/ReduxCore/inc/fields/color/field_color.php:75
+#: ../options/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:82
+#: ../options/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:94
+#: ../options/ReduxCore/inc/fields/color_rgba/field_color_rgba.php:81
+msgid "Transparent"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/background/field_background.php:136
+msgid "Background Repeat"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/background/field_background.php:152
+msgid "Background Clip"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/background/field_background.php:168
+msgid "Background Origin"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/background/field_background.php:183
+msgid "Background Size"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/background/field_background.php:198
+msgid "Background Attachment"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/background/field_background.php:218
+msgid "Background Position"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/background/field_background.php:272
+#: ../options/ReduxCore/inc/fields/media/field_media.php:116
+msgid "No media selected"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/background/field_background.php:306
+#: ../options/ReduxCore/inc/fields/media/field_media.php:155
+#: ../options/ReduxCore/inc/fields/slides/field_slides.php:129
+#: ../options/ReduxCore/inc/fields/slides/field_slides.php:191
+msgid "Upload"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/border/field_border.php:110
+#: ../options/ReduxCore/inc/fields/spacing/field_spacing.php:155
+msgid "All"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/border/field_border.php:123
+#: ../options/ReduxCore/inc/fields/spacing/field_spacing.php:179
+msgid "Top"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/border/field_border.php:130
+#: ../options/ReduxCore/inc/fields/spacing/field_spacing.php:186
+msgid "Right"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/border/field_border.php:137
+#: ../options/ReduxCore/inc/fields/spacing/field_spacing.php:193
+msgid "Bottom"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/border/field_border.php:144
+#: ../options/ReduxCore/inc/fields/spacing/field_spacing.php:200
+msgid "Left"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/border/field_border.php:158
+msgid "Border style"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:72
+msgid "From "
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:85
+msgid "To "
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/dimensions/field_dimensions.php:147
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:435
+msgid "Height"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/dimensions/field_dimensions.php:158
+#: ../options/ReduxCore/inc/fields/dimensions/field_dimensions.php:159
+#: ../options/ReduxCore/inc/fields/spacing/field_spacing.php:209
+#: ../options/ReduxCore/inc/fields/spacing/field_spacing.php:210
+msgid "Units"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/gallery/field_gallery.php:77
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/gallery/field_gallery.php:78
+msgid "Clear Gallery"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/group/field_group.php:82
+msgid "New "
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/link_color/field_link_color.php:91
+msgid "Regular"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/link_color/field_link_color.php:95
+msgid "Hover"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/link_color/field_link_color.php:99
+msgid "Visited"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/link_color/field_link_color.php:103
+msgid "Active"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/multi_text/field_multi_text.php:64
+msgid "Add More"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/password/field_password.php:60
+msgid "Username"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/select/field_select.php:81
+#: ../options/ReduxCore/inc/fields/select_image/field_select_image.php:64
+msgid "Select an item"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/select/field_select.php:124
+#: ../options/ReduxCore/inc/fields/select_image/field_select_image.php:138
+msgid "No items of this type were found."
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/slides/field_slides.php:152
+#: ../options/ReduxCore/inc/fields/slides/field_slides.php:207
+msgid "Description"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/slides/field_slides.php:170
+#: ../options/ReduxCore/inc/fields/slides/field_slides.php:223
+msgid "Delete Slide"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/slides/field_slides.php:226
+msgid "Add Slide"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/switch/field_switch.php:44
+msgid "On"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/switch/field_switch.php:51
+msgid "Off"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:190
+msgid "Font Family"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:191
+msgid "Font family"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:208
+msgid "Standard Fonts"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:266
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:267
+msgid "Backup Font Family"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:280
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:287
+msgid "Font style"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:281
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:287
+msgid "Style"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:316
+msgid "Font subsets"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:317
+msgid "Font Subsets"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:318
+msgid "Subsets"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:318
+msgid "Font script"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:335
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:336
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:337
+msgid "Text Align"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:358
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:359
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:360
+msgid "Text Transform"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:381
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:382
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:383
+msgid "Font Variant"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:401
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:402
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:403
+msgid "Text Decoration"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:425
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:426
+msgid "Font Size"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:426
+msgid "Size"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:434
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:435
+msgid "Line Height"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:443
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:444
+msgid "Word Spacing"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:452
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:453
+msgid "Letter Spacing"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:471
+msgid "Font Color"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:473
+msgid "Font color"
+msgstr ""
+
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:839
+#: ../options/ReduxCore/inc/fields/typography/field_typography.php:869
+msgid "Google Webfonts"
+msgstr ""
+
+#: ../options/ReduxCore/inc/validation/color/validation_color.php:16
+#: ../options/ReduxCore/inc/validation/colorrgba/validation_colorrgba.php:17
+#: ../options/ReduxCore/inc/validation/color_rgba/validation_color_rgba.php:15
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: ../options/ReduxCore/inc/validation/comma_numeric/validation_comma_numeric.php:17
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: ../options/ReduxCore/inc/validation/date/validation_date.php:17
+msgid "This field must be a valid date."
+msgstr ""
+
+#: ../options/ReduxCore/inc/validation/email/validation_email.php:17
+#: ../options/ReduxCore/inc/validation/email_not_empty/validation_email_not_empty.php:17
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: ../options/ReduxCore/inc/validation/not_empty/validation_not_empty.php:17
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: ../options/ReduxCore/inc/validation/no_html/validation_no_html.php:16
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: ../options/ReduxCore/inc/validation/no_special_chars/validation_no_special_chars.php:17
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: ../options/ReduxCore/inc/validation/numeric/validation_numeric.php:17
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: ../options/ReduxCore/inc/validation/url/validation_url.php:17
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: ../options/settings/sample-config.php:114
+msgid "Section via hook"
+msgstr ""
+
+#: ../options/settings/sample-config.php:115
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: ../options/settings/sample-config.php:193
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: ../options/settings/sample-config.php:210
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: ../options/settings/sample-config.php:211
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: ../options/settings/sample-config.php:217
+#, php-format
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#: ../options/settings/sample-config.php:217
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
+
+#: ../options/settings/sample-config.php:244
+msgid "General Settings"
+msgstr ""
+
+#: ../options/settings/sample-config.php:250
+msgid "Custom Logo"
+msgstr ""
+
+#: ../options/settings/sample-config.php:251
+msgid "Upload a custom logo for your site."
+msgstr ""
+
+#: ../options/settings/sample-config.php:257
+msgid "Custom Favicon"
+msgstr ""
+
+#: ../options/settings/sample-config.php:258
+msgid "Upload a custom favicon for your site."
+msgstr ""
+
+#: ../options/settings/sample-config.php:263
+msgid "Pagination Type"
+msgstr ""
+
+#: ../options/settings/sample-config.php:264
+msgid ""
+"Select the type of pagination for your site. Choose between Wide and Boxed."
+msgstr ""
+
+#: ../options/settings/sample-config.php:271
+msgid "Scroll to Top Button"
+msgstr ""
+
+#: ../options/settings/sample-config.php:272
+msgid "Choose this option to show or hide scroll to top button."
+msgstr ""
+
+#: ../options/settings/sample-config.php:280
+msgid "RTL"
+msgstr ""
+
+#: ../options/settings/sample-config.php:281
+msgid "Choose the option if your blog\\s language is rtl."
+msgstr ""
+
+#: ../options/settings/sample-config.php:288
+msgid "Lightbox"
+msgstr ""
+
+#: ../options/settings/sample-config.php:289
+msgid ""
+"You can enable this option if you want your visitors to open larger images "
+"in lightbox effect."
+msgstr ""
+
+#: ../options/settings/sample-config.php:299
+msgid "Layout Settings"
+msgstr ""
+
+#: ../options/settings/sample-config.php:304
+msgid "Layout Type"
+msgstr ""
+
+#: ../options/settings/sample-config.php:305
+msgid "Select the main layout for your site. Choose between Wide and Boxed."
+msgstr ""
+
+#: ../options/settings/sample-config.php:313
+msgid "Main Layout"
+msgstr ""
+
+#: ../options/settings/sample-config.php:314
+msgid ""
+"Select main content and sidebar alignment. Choose between 1, 2 or 3 column "
+"layout. <br><br><strong>Note:</strong> These layouts are applied to homepage."
+msgstr ""
+
+#: ../options/settings/sample-config.php:331
+msgid "Archives Layout"
+msgstr ""
+
+#: ../options/settings/sample-config.php:332
+msgid ""
+"Select layout style for archives. Choose between 1, 2 or 3 column layout. "
+"<br><br><strong>Note:</strong> These layouts are applied to archives "
+"(Category, tags etc)."
+msgstr ""
+
+#: ../options/settings/sample-config.php:349
+msgid "Single Layout"
+msgstr ""
+
+#: ../options/settings/sample-config.php:350
+msgid ""
+"Select layout style for single pages. Choose between 1, 2 or 3 column "
+"layout. <br><br><strong>Note:</strong> These layouts are applied to single "
+"posts and pages."
+msgstr ""
+
+#: ../options/settings/sample-config.php:364
+msgid "Styling Options"
+msgstr ""
+
+#: ../options/settings/sample-config.php:369
+msgid "Enable Responsive Layout?"
+msgstr ""
+
+#: ../options/settings/sample-config.php:370
+msgid ""
+"This theme can adopt to different screen resolutions automatically when "
+"rsponsive layout is enabled. You can enable or disable the responsive layout."
+msgstr ""
+
+#: ../options/settings/sample-config.php:379
+msgid "Primary Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:380
+msgid "Pick primary color scheme for the theme."
+msgstr ""
+
+#: ../options/settings/sample-config.php:388
+msgid "Navigation Menu"
+msgstr ""
+
+#: ../options/settings/sample-config.php:393
+msgid "Main Navigation Link Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:394
+msgid "Pick a link color for the main navigation."
+msgstr ""
+
+#: ../options/settings/sample-config.php:406
+msgid "Main Navigation Dropdown Background Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:407
+msgid "Pick a dropdown background color for the main navigation."
+msgstr ""
+
+#: ../options/settings/sample-config.php:415
+msgid "Main Navigation Dropdown Hover Background Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:416
+msgid "Pick a dropdown background color for hover state."
+msgstr ""
+
+#: ../options/settings/sample-config.php:424
+msgid "Main Navigation Dropdown Link Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:425
+msgid "Pick a link color for the navigation."
+msgstr ""
+
+#: ../options/settings/sample-config.php:437
+msgid "Top Navigation Link Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:438
+#: ../options/settings/sample-config.php:469
+msgid "Pick a link color for the top navigation."
+msgstr ""
+
+#: ../options/settings/sample-config.php:450
+msgid "Top Navigation Dropdown Background Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:451
+msgid "Pick a dropdown background color for top navigation."
+msgstr ""
+
+#: ../options/settings/sample-config.php:459
+msgid "Top Navigation Dropdown Hover Background Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:460
+msgid "Pick a dropdown background color for hover state for top menu."
+msgstr ""
+
+#: ../options/settings/sample-config.php:468
+msgid "Top Navigation Dropdown Link Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:481
+msgid "Mobile Menu Button Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:482
+msgid "Pick a color for buttons that appears on mobile navigation."
+msgstr ""
+
+#: ../options/settings/sample-config.php:490
+#: ../options/settings/sample-config.php:1079
+msgid "Header"
+msgstr ""
+
+#: ../options/settings/sample-config.php:496
+msgid "Header Background"
+msgstr ""
+
+#: ../options/settings/sample-config.php:497
+msgid "Pick a background color for header of the theme."
+msgstr ""
+
+#: ../options/settings/sample-config.php:513
+msgid "Header Padding"
+msgstr ""
+
+#: ../options/settings/sample-config.php:514
+msgid "Change top and bottom padding of header."
+msgstr ""
+
+#: ../options/settings/sample-config.php:530
+msgid "Logo Margin"
+msgstr ""
+
+#: ../options/settings/sample-config.php:531
+msgid "Change top and bottom margin of logo."
+msgstr ""
+
+#: ../options/settings/sample-config.php:541
+msgid "Body"
+msgstr ""
+
+#: ../options/settings/sample-config.php:546
+msgid "Body Text Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:547
+msgid "Pick a color for body text."
+msgstr ""
+
+#: ../options/settings/sample-config.php:556
+msgid "Body Background"
+msgstr ""
+
+#: ../options/settings/sample-config.php:557
+msgid "Background options for body."
+msgstr ""
+
+#: ../options/settings/sample-config.php:568
+msgid "Background Pattern"
+msgstr ""
+
+#: ../options/settings/sample-config.php:569
+msgid "Choose a background pattern for the theme."
+msgstr ""
+
+#: ../options/settings/sample-config.php:596
+msgid "Posts Box"
+msgstr ""
+
+#: ../options/settings/sample-config.php:602
+msgid "Post Box Background"
+msgstr ""
+
+#: ../options/settings/sample-config.php:603
+msgid "Pick a background color for post box of the theme."
+msgstr ""
+
+#: ../options/settings/sample-config.php:614
+msgid "Post Box Outer Border"
+msgstr ""
+
+#: ../options/settings/sample-config.php:615
+msgid "Properties for outer border of post boxes"
+msgstr ""
+
+#: ../options/settings/sample-config.php:629
+msgid "Posts Main Text Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:630
+msgid "Pick a color for main text of post boxes."
+msgstr ""
+
+#: ../options/settings/sample-config.php:639
+msgid "Posts Meta Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:640
+msgid "Pick a color for meta of post boxes."
+msgstr ""
+
+#: ../options/settings/sample-config.php:649
+msgid "Posts Title Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:650
+msgid "Pick a color for title of post boxes."
+msgstr ""
+
+#: ../options/settings/sample-config.php:659
+msgid "Sidebar Widgets"
+msgstr ""
+
+#: ../options/settings/sample-config.php:665
+msgid "Sidebar Widgets Background"
+msgstr ""
+
+#: ../options/settings/sample-config.php:666
+msgid "Pick a background color for sidebar widgets."
+msgstr ""
+
+#: ../options/settings/sample-config.php:677
+msgid "Sidebar Widgets Border"
+msgstr ""
+
+#: ../options/settings/sample-config.php:678
+msgid "Properties for border of sidebar widgets."
+msgstr ""
+
+#: ../options/settings/sample-config.php:692
+msgid "Sidebar Widgets Text Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:693
+msgid "Pick a color for text of sidebar widgets."
+msgstr ""
+
+#: ../options/settings/sample-config.php:702
+msgid "Sidebar Widgets Link Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:703
+msgid "Pick a color for links of sidebar widgets."
+msgstr ""
+
+#: ../options/settings/sample-config.php:712
+msgid "Sidebar Widgets Meta Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:713
+msgid "Pick a color for meta of sidebar widgets."
+msgstr ""
+
+#: ../options/settings/sample-config.php:722
+msgid "Sidebar Widget Title Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:723
+msgid "Pick a color for title of sidebar widgets."
+msgstr ""
+
+#: ../options/settings/sample-config.php:732
+#: ../options/settings/sample-config.php:1126
+msgid "Footer"
+msgstr ""
+
+#: ../options/settings/sample-config.php:737
+msgid "Footer Background Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:738
+msgid "Pick a background color for the footer."
+msgstr ""
+
+#: ../options/settings/sample-config.php:755
+msgid "Footer Link Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:756
+msgid "Pick a link color for the footer."
+msgstr ""
+
+#: ../options/settings/sample-config.php:769
+msgid "Footer Widget Title Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:770
+msgid "Pick a color for title of footer widgets."
+msgstr ""
+
+#: ../options/settings/sample-config.php:779
+msgid "Copyright Background Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:780
+msgid "Pick a background color for the copyright section."
+msgstr ""
+
+#: ../options/settings/sample-config.php:798
+msgid "Copyright Text Color"
+msgstr ""
+
+#: ../options/settings/sample-config.php:799
+msgid "Pick color for text of copyright section."
+msgstr ""
+
+#: ../options/settings/sample-config.php:810
+msgid "Typography"
+msgstr ""
+
+#: ../options/settings/sample-config.php:816
+msgid "Body Font"
+msgstr ""
+
+#: ../options/settings/sample-config.php:817
+msgid "Select the main body font for your theme."
+msgstr ""
+
+#: ../options/settings/sample-config.php:833
+msgid "Main Navigation Font"
+msgstr ""
+
+#: ../options/settings/sample-config.php:834
+msgid "Select the font for main navigation."
+msgstr ""
+
+#: ../options/settings/sample-config.php:850
+msgid "Headings Font"
+msgstr ""
+
+#: ../options/settings/sample-config.php:851
+msgid "Select the font for headings for your theme."
+msgstr ""
+
+#: ../options/settings/sample-config.php:867
+msgid "Post Title Font"
+msgstr ""
+
+#: ../options/settings/sample-config.php:868
+msgid "Select the font for titles of posts for your theme."
+msgstr ""
+
+#: ../options/settings/sample-config.php:884
+msgid "Post Content Font"
+msgstr ""
+
+#: ../options/settings/sample-config.php:885
+msgid "Select the font size and color for post content."
+msgstr ""
+
+#: ../options/settings/sample-config.php:903
+msgid "Widget Title Font"
+msgstr ""
+
+#: ../options/settings/sample-config.php:904
+msgid "Select the font for titles of widgets for your theme."
+msgstr ""
+
+#: ../options/settings/sample-config.php:920
+msgid "Logo Font"
+msgstr ""
+
+#: ../options/settings/sample-config.php:921
+msgid "Select the font for logo for your theme."
+msgstr ""
+
+#: ../options/settings/sample-config.php:942
+msgid "Homepage"
+msgstr ""
+
+#: ../options/settings/sample-config.php:947
+msgid "Show Featured Posts"
+msgstr ""
+
+#: ../options/settings/sample-config.php:948
+msgid "Choose the option to show or hide featured posts."
+msgstr ""
+
+#: ../options/settings/sample-config.php:958
+msgid "Featured Slider Category"
+msgstr ""
+
+#: ../options/settings/sample-config.php:960
+msgid "Select category/categories for featured slider."
+msgstr ""
+
+#: ../options/settings/sample-config.php:967
+msgid "Featured Posts Category"
+msgstr ""
+
+#: ../options/settings/sample-config.php:969
+msgid "Select category/categories for featured posts."
+msgstr ""
+
+#: ../options/settings/sample-config.php:974
+msgid "Featured Posts Style"
+msgstr ""
+
+#: ../options/settings/sample-config.php:975
+msgid "Select featured posts style"
+msgstr ""
+
+#: ../options/settings/sample-config.php:987
+msgid "Post Icons"
+msgstr ""
+
+#: ../options/settings/sample-config.php:988
+msgid "Choose the option to show or hide post icons on homepage."
+msgstr ""
+
+#: ../options/settings/sample-config.php:996
+msgid "Show Latest Posts by Category"
+msgstr ""
+
+#: ../options/settings/sample-config.php:997
+msgid "Choose this option to show latest posts by category on homepage."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1007
+msgid "Latest Posts Category"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1009
+msgid ""
+"Select category/categories for latest posts on homepage. Use Ctrl key to "
+"select more than one category."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1014
+msgid "Home Content"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1015
+msgid "Select content type for home."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1022
+msgid "Excerpt Length"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1024
+msgid "Paste the length of post excerpt to be shown on homepage."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1033
+#: ../options/settings/sample-config.php:1186
+msgid "Post Meta Info Options"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1034
+msgid "Select which items to show for post meta on homepage and archives."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1041
+#: ../options/settings/sample-config.php:1241
+msgid "Social Media Share Buttons"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1042
+#: ../options/settings/sample-config.php:1242
+msgid "Choose the option to show or hide social media share buttons."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1050
+#: ../options/settings/sample-config.php:1250
+msgid "Select Share Buttons"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1052
+#: ../options/settings/sample-config.php:1252
+msgid "Select which button you want to show."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1085
+msgid "Header Style"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1086
+msgid "Select the style for header. Choose between left or center logo."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1096
+msgid "Sticky Header"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1097
+msgid "Choose the option to enable or disable the sticky header."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1105
+msgid "Social Links in Header"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1106
+msgid "Choose the option to show or hide social links in top bar."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1114
+msgid "Search Form in Header"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1115
+msgid "Choose the option to show or hide search form in top bar."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1131
+msgid "Copyright Text"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1132
+msgid ""
+"Enter copyright text to be shown on footer or you can keep it blank to show "
+"nothing."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1145
+msgid "Single Post Options"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1150
+msgid "Breadcrumbs"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1151
+msgid "Choose the option to show or hide breadcrumbs on single posts."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1159
+msgid "Show Featured Content"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1160
+msgid ""
+"Choose the option to show or hide featured thumbnails, gallery, audio or "
+"video on single posts."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1168
+msgid "Single Post Icon"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1169
+msgid "Choose the option to show or hide post icon on single posts."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1177
+msgid "Single Post Meta"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1178
+msgid "Choose the option to show or hide post meta on single posts."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1188
+msgid "Select which items to show for post meta."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1195
+msgid "Author Info Box"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1196
+msgid "Choose the option to show or hide author info box on single posts."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1204
+msgid "Next/Prev Article Links"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1205
+msgid ""
+"Choose the option to show or hide links to Next/Prev articles on single "
+"posts."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1214
+msgid "Choose the option to show or hide related posts on single posts."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1222
+msgid "Number of Related Posts"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1224
+msgid "Choose the number of related posts you want to show."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1233
+msgid "Related Posts By"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1234
+msgid "Choose whther to show related posts by categories or tags."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1279
+msgid "Ad Management"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1284
+msgid "Below Post Title Ad"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1285
+#: ../options/settings/sample-config.php:1292
+#: ../options/settings/sample-config.php:1306
+msgid "Paste your ad code here."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1291
+msgid "Below Post Content Ad"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1298
+msgid "Show Ad after \"X\" paragraphs"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1299
+msgid "Enter number of paragraphs here."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1305
+msgid "Ad Code"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1321
+msgid "Enter your Facebook URL here."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1329
+msgid "Enter your Twitter URL here."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1336
+msgid "Google Plus"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1337
+msgid "Enter your Google Plus URL here."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1344
+msgid "Instagram"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1345
+msgid "Enter your Instagram URL here."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1352
+msgid "YoutTube"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1353
+msgid "Enter your YoutTube URL here."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1361
+msgid "Enter your Pinterest URL here."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1368
+msgid "Flickr"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1369
+msgid "Enter your Flickr URL here."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1376
+msgid "RSS"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1377
+msgid "Enter your RSS URL here."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1384
+msgid "Linked in"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1385
+msgid "Enter your Linked in URL here."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1395
+msgid "404 Page Options"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1400
+msgid "Error Page Title"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1401
+msgid "Enter a title for 404 error page here."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1407
+msgid "Error Page Description"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1408
+msgid "Enter description for error page here."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1421
+msgid "Custom Codes"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1426
+msgid "Custom CSS"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1427
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1435
+msgid "Header Code"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1436
+msgid "Paste any code here that you want to add into the header section."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1441
+msgid "Footer JS Code/Tracking Code"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1442
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. This will be "
+"added into the footer template of your theme."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1452
+msgid "<strong>Theme URL:</strong> "
+msgstr ""
+
+#: ../options/settings/sample-config.php:1453
+msgid "<strong>Author:</strong> "
+msgstr ""
+
+#: ../options/settings/sample-config.php:1454
+msgid "<strong>Version:</strong> "
+msgstr ""
+
+#: ../options/settings/sample-config.php:1458
+msgid "<strong>Tags:</strong> "
+msgstr ""
+
+#: ../options/settings/sample-config.php:1465
+#: ../options/settings/sample-config.php:1496
+msgid "Documentation"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1480
+msgid "Import and Export your Redux Framework settings from file, text or URL."
+msgstr ""
+
+#: ../options/settings/sample-config.php:1507
+msgid "Theme Information 1"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1508
+#: ../options/settings/sample-config.php:1514
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1513
+msgid "Theme Information 2"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1518
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1538
+#: ../options/settings/sample-config.php:1539
+msgid "Theme Options"
+msgstr ""
+
+#: ../options/settings/sample-config.php:1640
+msgid ""
+"<p>This text is displayed above the options panel. It isn't required, but "
+"more info is always better! The intro_text field accepts all HTML.</p>"
+msgstr ""
