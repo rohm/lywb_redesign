@@ -1,0 +1,78 @@
+// Deprecated as of v3.0.1 (will be removed in v4)
+.hide-text() {
+  font: ~"0/0" a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+// New mixin to use as of v3.0.1
+.text-hide() {
+  font: ~"0/0" a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+
+
+.retina-image(@file, @type, @repeat, @width, @height, @posx, @posy) {
+  background-image: url('@{file}.@{type}');
+  background-repeat: @repeat;
+  background-position: @posx @posy;
+
+  @media print, screen,
+    (-webkit-min-device-pixel-ratio: 1.25),
+    (~`"-o-min-device-pixel-ratio: 1.25/1"`),
+    (min--moz-device-pixel-ratio: 1.25),
+    (-moz-min-device-pixel-ratio: 1.25),
+    (-ms-min-device-pixel-ratio: 1.25),
+    (min-device-pixel-ratio: 1.25),
+    (min-resolution: 120dpi),
+    (min-resolution: 1.25dppx) {
+      background-size: @width @height;
+      background-image: url('@{file}@2x.@{type}');
+      background-position: @posx @posy;
+    }
+}
+
+.box-shadow2(@shadow1, @shadow2) {
+  -webkit-box-shadow: @shadow1, @shadow2;
+     -moz-box-shadow: @shadow1, @shadow2;
+          box-shadow: @shadow1, @shadow2;
+}
+.box-shadow3(@shadow1, @shadow2, @shadow3) {
+  -webkit-box-shadow: @shadow1, @shadow2, @shadow3;
+     -moz-box-shadow: @shadow1, @shadow2, @shadow3;
+          box-shadow: @shadow1, @shadow2, @shadow3;
+}
+
+.fa() {
+	font-family: FontAwesome;
+	display: inline-block;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.appearance(@appearance) {
+	-webkit-appearance:@appearance;
+	-moz-appearance:@appearance;
+	appearance:@appearance;
+}
+
+// Transformations
+.rotate(@degrees) {
+  -webkit-transform: rotate(@degrees);
+      -ms-transform: rotate(@degrees); // IE9+
+          transform: rotate(@degrees);
+}
+
+.img-responsive(@display: block;) {
+  display: @display;
+  max-width: 100%; // Part 1: Set a maximum relative to the parent
+  height: auto; // Part 2: Scale the height according to the width, otherwise you get stretching
+}
