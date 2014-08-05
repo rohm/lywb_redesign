@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Full Width Template
+ * Template Name: Authors List
  */
 ?>
 <?php get_header(); ?>
@@ -19,12 +19,13 @@
 					<div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 						
 						<header>
-							<h1 class="title page-title"><?php the_title(); ?></h1>
+							<h1 class="title page-title"><?php _e('Authors','bloompixel'); ?></h1>
 						</header>
 						
 						<div class="post-content single-page-content">
-							<?php the_content(); ?>
-							<?php wp_link_pages('before=<div class="pagination">&after=</div>'); ?>
+							<ul>
+								<?php wp_list_authors(); ?>
+							</ul>
 						</div>	
 					</div><!--blog post-->
 				</div>
