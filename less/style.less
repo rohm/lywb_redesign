@@ -270,7 +270,7 @@ sup {
         float:left;
         font-size:18px;
         margin:0;
-        padding:18px 0;
+        padding:13px 0 18px;
         width:34px;
         text-align:center;
         -webkit-transition:background .25s linear;
@@ -310,7 +310,7 @@ sup {
 }
 .header-search {
     float:right;
-    margin:11px 0;
+    margin:4px 0;
     position:relative;
     width:210px;
 	.transition(all .5s);
@@ -331,13 +331,16 @@ sup {
 }
 .top-bar {
 	background-color: #E20F55 !important;
+	background-image: url("../images/top-header-bottom.png");
+	background-repeat: repeat-x;
+	background-position: bottom;
 	nav.secondary-nav {
 		display: inline-block;
 		margin-left: 1%;
 		// float: right;
 		> a {
 			display: inline-block;
-			padding: 18px 8px;
+			padding: 12px 8px 18px;
 			color: #fff;
 			&:hover {
 				background-color: darken(@brand-secondary, 7%);
