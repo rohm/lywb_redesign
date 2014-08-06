@@ -20,10 +20,18 @@
 				<?php if ($bpxl_ublog_options['bpxl_linked'] != '') { ?><a class="fa fa-linkedin linkedin" href="<?php echo $bpxl_ublog_options['bpxl_linked']; ?>"></a><?php } ?>
 				<?php if ($bpxl_ublog_options['bpxl_rss'] != '') { ?><a class="fa fa-rss rss" href="<?php echo $bpxl_ublog_options['bpxl_rss']; ?>"></a><?php } ?>
 				<?php if ($bpxl_ublog_options['bpxl_pinterest'] != '') { ?><a class="fa fa-pinterest pinterest" href="<?php echo $bpxl_ublog_options['bpxl_pinterest']; ?>"></a><?php } ?>
+
+					
+
 			</div><!-- .social-links -->
+			
 		<?php }
 		if ($bpxl_ublog_options['bpxl_header_search'] == '1') { ?>
 			<div class="header-search"><?php get_search_form(); ?></div>
 		<?php } ?>
+		<nav class="secondary-nav">
+			<a href="#" class="contact-us">Contact Us</a>
+			<a href="#" class="donate">Donate</a>
+		</nav>
 	</div>
 </div><!--.top-bar-->

@@ -1,32 +1,5 @@
-//
-// Theme Name:UBlog
-// Theme URI: http://bloompixel.com/
-// Author: Simrandeep Singh
-// Author URI: http://themeforest.net/user/BloomPixel
-// Description: A premium blog style responsive WordPress theme.
-// Version: 1.0
-// License: GNU General Public License version 3.0
-// License URI: http://www.gnu.org/licenses/gpl-3.0.html
-// Tags:right-sidebar, custom-menu, featured-images, two-columns, theme-options, custom-background, threaded-comments
-//
 
-// -----------------------------------------------------------------------------------
-//
-// 	1. CSS Reset
-// 	2. Framework (body, headings, links)
-// 	3. Main Container
-// 	4. Header
-// 	5. Navigation
-// 	6. Main Content (homepage, single)
-// 	7. Comments
-// 	8. Sidebar
-// 	9. Footer
-// 	10. Widgets
-// 
-// --------------------------------------------------------------------------------*/
-
-@brand-primary: #91c842;
-
+@import "variables.less";
 @import "mixins.less";
 
 // --------------------------------------------------------------------------------*/
@@ -105,19 +78,19 @@ input,select {
 body {
     background:#fff;
     line-height:1;
-    color:#555;
+    color:@text-color;
     font:13px/20px arial,sans-serif;
 }
 a {
-    color:#e91b23;
+    color:@brand-primary;
     outline:none;
     text-decoration:none;
     -webkit-transition:all .25s linear;
     -moz-transition:all .25s linear;
     transition:all .25s linear;
-}
-a:hover {
-    color:#e91b23;
+	&:hover {
+		color: darken(@brand-primary, 10%);
+	}
 }
 ::-moz-selection {
     background:#222;
@@ -204,6 +177,7 @@ sup {
 	color: #fff !important;
 	.transition(background-color .5s);
 	font-style: normal;
+	.box-sizing(border-box);
 	&:hover {
 		background-color: #111;
 	}
@@ -339,6 +313,12 @@ sup {
     margin:11px 0;
     position:relative;
     width:210px;
+	.transition(all .5s);
+	border-radius: 2px;
+	&:hover {
+		background-color: rgba(0,0,0,.05);
+		.box-shadow(inset 0 2px 1px rgba(0,0,0,.07));
+	}
 }
 .header-search:after {
     position:absolute;
@@ -347,9 +327,23 @@ sup {
     display:block;
     height:6px;
     width:98%;
-    border-bottom:2px solid #fff;
-    border-left:2px solid #fff;
-    border-right:2px solid #fff;
+    
+}
+.top-bar {
+	background-color: #E20F55 !important;
+	nav.secondary-nav {
+		display: inline-block;
+		margin-left: 1%;
+		// float: right;
+		> a {
+			display: inline-block;
+			padding: 18px 8px;
+			color: #fff;
+			&:hover {
+				background-color: darken(@brand-secondary, 7%);
+			}
+		}
+	}
 }
 .top-bar ::-webkit-input-placeholder,.st-menu .s::-webkit-input-placeholder {
     color:#fff;
@@ -447,13 +441,14 @@ sup {
     position:relative;
     width:1170px;
 }
+
 #navigation {
     float:left;
     margin:0;
     max-width:100%;
     position:relative;
     text-align:center;
-    text-transform:uppercase;
+    // text-transform:uppercase;
     width:100%;
     .menu {
         ul {
@@ -471,6 +466,7 @@ sup {
         a {
             display:block;
             position:relative;
+			font-size: 16px;
         }
     }
     ul {
@@ -513,11 +509,12 @@ sup {
     line-height:20px;
     position:relative;
     width:100%;
+	.box-shadow(0 3px 0 rgba(0,0,0,.03));
     a {
         color:#8b8b8b;
         font-weight:700;
         margin:0;
-        padding:15px 12px 15px;
+        padding:15px 20px 15px;
     }
     ul {
         ul {
@@ -640,6 +637,23 @@ ul.menu {
             display:none;
         }
     }
+}
+ul.menu#menu-footer-2 {
+	text-align: center;
+	> li {
+		display: inline;
+		margin:  0 3%;
+		&:after {
+			
+		}
+		> a {
+			color: @link-color;
+			&:hover {
+				color: darken(@link-color, 10%);
+			}
+			
+		}
+	}
 }
 #close-button {
     padding:15px 0;
@@ -2192,6 +2206,39 @@ ol.commentlist {
     padding:0;
     overflow:hidden;
     width:100%;
+	font-style: normal;
+	.clearfix();
+	padding: 30px 0;
+	color: @text-color !important;
+	a {
+		color: @text-color;
+	}
+	.copyright-copy {
+		float: left;
+	}
+	nav {
+		text-align: right;
+		float: right;
+		> a {
+			margin-left: 10px;
+		}
+	}
+	
+}
+@media (max-width: 767px) {
+	.copyright {
+		.copyright-copy {
+			margin-bottom: 20px;
+			display: block;
+		}
+		.copyright-copy,
+		nav {
+			float: none;
+			text-align: center;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	}
 }
 .copyright-inner {
     margin:0 auto;
@@ -2200,8 +2247,7 @@ ol.commentlist {
     width:100%;
 }
 .copyright-text {
-    float:left;
-    padding:15px 0;
+    padding:0;
 }
 .back-to-top {
     cursor:pointer;
@@ -2259,6 +2305,7 @@ ol.commentlist {
     outline:0;
     padding:10px 0 9px 3%;
     width:85%;
+	font-size: 1em;
 }
 .search-button {
     background:rgba(0,0,0,0.08);
@@ -2295,18 +2342,28 @@ header {
         }
     }
     .s {
-        background:transparent;
+        // background-color: darken(@brand-secondary, 6%);
         color:#fff;
         float:left;
         padding:8px 4% 8px;
         width:76%;
+		// .placeholder(@color: #ccc);
+		border-radius: 3px 0 0 3px;
     }
     .search-button {
-        background-color:transparent;
+        // background-color: darken(@brand-secondary, 11%);
+		background-color: transparent;
         color:#fff;
-        height:30px;
+        height:32px;
         width:16%;
         z-index:99;
+		border-radius: 0 3px 3px 0;
+		&:active {
+			background-color: darken(@brand-secondary, 6%);
+		}
+		&.fa-search:before {
+			font-size: 18px !important;
+		}
     }
 }
 .tagcloud {

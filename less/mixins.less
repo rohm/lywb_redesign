@@ -1,3 +1,13 @@
+.clearfix() {
+  &:before,
+  &:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+  }
+  &:after {
+    clear: both;
+  }
+}
 // Deprecated as of v3.0.1 (will be removed in v4)
 .hide-text() {
   font: ~"0/0" a;
@@ -35,6 +45,12 @@
       background-image: url('@{file}@2x.@{type}');
       background-position: @posx @posy;
     }
+}
+
+.box-shadow(@shadow) {
+  -webkit-box-shadow: @shadow;
+     -moz-box-shadow: @shadow;
+          box-shadow: @shadow;
 }
 
 .box-shadow2(@shadow1, @shadow2) {
@@ -99,4 +115,17 @@
      -moz-transition: -moz-transform @transition;
        -o-transition: -o-transform @transition;
           transition: transform @transition;
+}
+// Placeholder text
+.placeholder(@color: @input-color-placeholder) {
+  &:-moz-placeholder            { color: @color; } // Firefox 4-18
+  &::-moz-placeholder           { color: @color; } // Firefox 19+
+  &:-ms-input-placeholder       { color: @color; } // Internet Explorer 10+
+  &::-webkit-input-placeholder  { color: @color; } // Safari and Chrome
+}
+// Box sizing
+.box-sizing(@boxmodel) {
+  -webkit-box-sizing: @boxmodel;
+     -moz-box-sizing: @boxmodel;
+          box-sizing: @boxmodel;
 }
