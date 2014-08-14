@@ -62,6 +62,7 @@
 		<div class="copyright-inner">
 			<?php if($bpxl_ublog_options['bpxl_footer_text'] != '') { ?><div class="copyright-text"><?php echo $bpxl_ublog_options['bpxl_footer_text']; ?></div><?php } ?>
 			<div class="footer-menu">
+				
 				<?php if ( has_nav_menu( 'footer-menu' ) ) {
 					wp_nav_menu( array( 'theme_location' => 'footer-menu', 'menu_class' => 'menu', 'container' => '', 'walker' => new bpxl_nav_walker ) );
 				} ?>

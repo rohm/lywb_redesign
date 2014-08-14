@@ -38,7 +38,7 @@
 										</div>
 									</article><!--blog post-->
 								</div>	
-								<?php comments_template(); ?>
+								<!-- ? php comments_template(); ? -->
 								<?php endwhile; ?>
 								<?php else : ?>
 									<div class="post">

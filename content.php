@@ -96,7 +96,7 @@
 		</div><!--.post-home-->
 		<div class="post-share">
 			<?php if(is_single()) {
-				if($bpxl_ublog_options['bpxl_show_share_buttons'] == '1') {
+				if($bpxl_ublog_options['bpxl_show_home_share_buttons'] == '1') {
 					get_template_part('inc/share-buttons');
 				}
 			} else {
