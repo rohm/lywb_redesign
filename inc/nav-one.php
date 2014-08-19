@@ -30,8 +30,8 @@
 			<div class="header-search"><?php get_search_form(); ?></div>
 		<?php } ?>
 		<nav class="secondary-nav">
-			<a href="#" class="contact-us">Contact Us</a>
-			<a href="#" class="donate">Donate</a>
+			<a href="/contact-us/" class="contact-us">Contact Us</a>
+			<a href="https://www.reviveourhearts.com/donate/" class="donate">Donate</a>
 		</nav>
 	</div>
 </div><!--.top-bar-->

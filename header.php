@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <?php global $bpxl_ublog_options; ?>
-<html <?php language_attributes(); ?>>
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="" <?php language_attributes(); ?>> <!--<![endif]-->
 <head>
 <meta charset="<?php bloginfo('charset'); ?>">
 <title itemprop="name"><?php wp_title( '|', true, 'right' ); bloginfo( 'name' ); ?></title>
@@ -28,6 +32,11 @@
 			<?php if ( has_nav_menu( 'secondary-menu' ) ) {
 				wp_nav_menu( array( 'theme_location' => 'secondary-menu', 'menu_class' => 'menu', 'container' => '', 'walker' => new bpxl_nav_walker ) );
 			} ?>
+				<ul class="menu">
+					<li><a href="/contact-us/" class="contact-us">Contact Us</a></li>
+					<li><a href="https://www.reviveourhearts.com/donate/" class="donate">Donate</a></li>
+				
+				
 		</nav>
 		<div class="main-container<?php if($bpxl_ublog_options['bpxl_layout_type'] != '1') { echo $layout_class; } ?>">
 			<div class="st-pusher">
