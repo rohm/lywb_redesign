@@ -20,16 +20,16 @@ if ( ! isset( $content_width ) ) {
 function bpxl_theme_setup() {
 	// Adds RSS feed links to <head> for posts and comments.
 	add_theme_support( 'automatic-feed-links' );
-	
+
 	// This theme supports the following post formats.
 	add_theme_support( 'post-formats', array( 'gallery', 'link', 'quote', 'video', 'image', 'status', 'audio' ) );
-	
+
 	// Register WordPress Custom Menus
 	add_theme_support( 'menus' );
 	register_nav_menu( 'main-menu', __( 'Main Menu', 'bloompixel' ) );
 	register_nav_menu( 'secondary-menu', __( 'Secondary Menu', 'bloompixel' ) );
 	register_nav_menu( 'footer-menu', __( 'Footer Menu', 'bloompixel' ) );
-	
+
 	// Register Post Thumbnails
 	add_theme_support( 'post-thumbnails' );
 	set_post_thumbnail_size( 150, 150, true );
@@ -37,7 +37,7 @@ function bpxl_theme_setup() {
 	add_image_size( 'featured395', 453, 163, true ); //featured370
 	add_image_size( 'related', 240, 185, true ); //related
 	add_image_size( 'widgetthumb', 90, 90, true ); //widgetthumb
-	
+
 	// Load Localization Files
 	$lang_dir = get_template_directory() . '/lang';
 	load_theme_textdomain('bloompixel', $lang_dir);
@@ -63,11 +63,11 @@ get_template_part('inc/category-meta/Tax-meta-class/class-usage');
 function bpxl_stylesheets() {
 	global $bpxl_ublog_options;
 	wp_enqueue_style( 'goblog-style', get_stylesheet_uri() );
-	
+
 	// Color Scheme
 	if (is_category()) {
 		$category_ID = get_query_var('cat');
-		
+
 		$cat_color_1 = get_tax_meta($category_ID,'bpxl_color_field_id');
 		$cat_bg_color = get_tax_meta($category_ID,'bpxl_cat_bg_color_field_id');
 		$cat_bg = get_tax_meta($category_ID,'bpxl_bg_field_id');
@@ -88,7 +88,7 @@ function bpxl_stylesheets() {
 		$single_size = rwmb_meta( 'bpxl_post_bg_size', $args = array('type' => 'select'), get_the_ID() );
 		$single_attachment = rwmb_meta( 'bpxl_post_bg_attachment', $args = array('type' => 'select'), get_the_ID() );
 	}
-	
+
 	// Color Scheme 1
 	$color_scheme_1 = "";
 	if (is_category()) {
@@ -98,10 +98,10 @@ function bpxl_stylesheets() {
 	} elseif ($bpxl_ublog_options['bpxl_color_one'] != '') {
 		$color_scheme_1 = $bpxl_ublog_options['bpxl_color_one'];
 	}
-	
+
 	// Background Color
 	if (!empty($bpxl_ublog_options['bpxl_body_bg']['background-color'])) { $background_color = $bpxl_ublog_options['bpxl_body_bg']['background-color']; } else { $background_color = '#f2f2f2'; }
-	
+
 	// Background Pattern
 	$background_img = get_template_directory_uri(). "/images/bg.png";
 	$bg_repeat = 'repeat';
@@ -164,7 +164,7 @@ function bpxl_stylesheets() {
 		$bg_position = '0 0';
 		$bg_size = 'inherit';
 	}
-	
+
 	// Layout Options
 	$bpxl_layout = '';
 	$bpxl_archive_layout = '';
@@ -173,7 +173,7 @@ function bpxl_stylesheets() {
 	$bpxl_featured_css = '';
 	$bpxl_sticky_css = '';
 	$bpxl_custom_css = '';
-	
+
 	// Home Layout
 	if(is_home() || is_front_page() || is_search()) {
 		if($bpxl_ublog_options['bpxl_layout'] == 'scb_layout') {
@@ -211,7 +211,7 @@ function bpxl_stylesheets() {
 			$bpxl_layout = '';
 		}
 	}
-	
+
 	// Archive Layout
 	if(is_archive() || is_author()) {
 		if ($bpxl_ublog_options['bpxl_archive_layout'] == 'scb_archive_layout') {
@@ -239,7 +239,7 @@ function bpxl_stylesheets() {
 			.masonry-archive .post .title { font-size:26px; line-height:32px; margin-bottom:5px } .masonry-archive .post-home { padding:0 15px } .masonry-archive .gallerytiled ul li { width:32.9% }';
 		}
 		elseif ($bpxl_ublog_options['bpxl_archive_layout'] == 'g_archive_layout') {
-			$bpxl_archive_layout = '.archive-content-area { margin:0; width:100%; } 
+			$bpxl_archive_layout = '.archive-content-area { margin:0; width:100%; }
 			.masonry-archive .post { float:left; margin:0 10px 20px; width:48%;} .fb-status { min-height:185px } .twitter-status { min-height:240px } .galleryslider { min-height:262px; } .masonry-archive .gallerytiled ul li { width:24.7% }';
 		}
 		elseif ($bpxl_ublog_options['bpxl_archive_layout'] == 'f_archive_layout') {
@@ -247,7 +247,7 @@ function bpxl_stylesheets() {
 		}
 		else { $bpxl_archive_layout = ''; }
 	}
-	
+
 	// Single Layout
 	if( is_single() || is_page() ) {
 		if($bpxl_ublog_options['bpxl_single_layout'] == 'bc_single_layout') {
@@ -259,18 +259,18 @@ function bpxl_stylesheets() {
 		elseif ($bpxl_ublog_options['bpxl_single_layout'] == 'f_single_layout') {
 			$bpxl_single_layout = '.single-content-area { margin:0; width:100%; } .relatedPosts ul li { width:21.6% }';
 		}
-		
+
 		$sidebar_positions = rwmb_meta( 'bpxl_layout', $args = array('type' => 'image_select'), get_the_ID() );
-		
+
 		if( !empty($sidebar_positions) ) {
 			$sidebar_position = $sidebar_positions;
-			
+
 			if( $sidebar_position == 'left' ) $bpxl_single_layout = '.single-content-area { float:right; margin-left:2.2%; margin-right:0 }';
 			elseif( $sidebar_position == 'right' ) $bpxl_single_layout = '.single-content-area { float:left; margin-right:2.2%; margin-left:0 }';
 			elseif( $sidebar_position == 'none' ) $bpxl_single_layout = '.single-content-area { margin:0; width:100% } .relatedPosts ul li { width:21.6% }';
 		}
 	}
-	
+
 	// Header Style
 	if ($bpxl_ublog_options['bpxl_header_style'] == 'header_two') {
 		$bpxl_header_css = '.header { text-align:left; }';
@@ -278,26 +278,26 @@ function bpxl_stylesheets() {
 	if ($bpxl_ublog_options['bpxl_header_style'] == 'header_three') {
 		$bpxl_header_css = '.header { text-align:left; } .main-navigation { border:0; float:right; width:auto } .main-nav { width:auto }';
 	}
-	
+
 	// Featured Posts
 	if ($bpxl_ublog_options['bpxl_featured_style'] == 'style_2') {
 		$bpxl_featured_css = '.featuredslider { float:right; margin:0 0 0 0.4% }';
 	}
-	
+
 	// Sticky Menu
 	if ($bpxl_ublog_options['bpxl_sticky_menu'] == '1') {
 		$bpxl_sticky_css = '.stickymenu { position:fixed; z-index:100; left:0; top:0; width:100%; opacity:0.9 }';
 	}
-	
+
 	// Hex to RGB
 	$bpxl_hex = $color_scheme_1;
 	list($bpxl_r, $bpxl_g, $bpxl_b) = sscanf($bpxl_hex, "#%02x%02x%02x");
-	
+
 	// Custom CSS
 	if ($bpxl_ublog_options['bpxl_custom_css'] != '') {
 		$bpxl_custom_css = $bpxl_ublog_options['bpxl_custom_css'];
 	}
-	
+
 	$custom_css = "
 	body { background-color:{$background_color}; background-image:url({$background_img}); background-repeat:{$bg_repeat}; background-attachment:{$bg_attachment}; background-position:{$bg_position}; background-size:{$bg_size} }
 	.top-bar, .tagcloud a:hover, .pagination span, .pagination a:hover, .read-more a, .post-format-quote, .flex-control-nav .flex-active, #subscribe-widget input[type='submit'], #wp-calendar caption, #wp-calendar td#today, #commentform #submit, .wpcf7-submit, .off-canvas-search { background-color:{$color_scheme_1}; }
@@ -306,17 +306,17 @@ function bpxl_stylesheets() {
 	#wp-calendar th { background: rgba({$bpxl_r},{$bpxl_g},{$bpxl_b}, 0.6) }
 	{$bpxl_layout} {$bpxl_archive_layout} {$bpxl_single_layout} {$bpxl_header_css} {$bpxl_featured_css} {$bpxl_sticky_css} {$bpxl_custom_css}";
 	wp_add_inline_style( 'goblog-style', $custom_css );
-	
+
 	// Font-Awesome CSS
 	wp_register_style( 'font-awesome', get_template_directory_uri() . '/css/font-awesome.css' );
 	wp_enqueue_style( 'font-awesome' );
-	
+
 	if ($bpxl_ublog_options['bpxl_responsive_layout'] == '1') {
 		// Responsive
 		wp_register_style( 'responsive', get_template_directory_uri() . '/css/responsive.css' );
 		wp_enqueue_style( 'responsive' );
 	}
-	
+
 	if ($bpxl_ublog_options['bpxl_rtl'] == '1') {
 		// Responsive
 		wp_register_style( 'rtl', get_template_directory_uri() . '/css/rtl.css' );
@@ -332,13 +332,13 @@ function bpxl_scripts() {
 global $bpxl_ublog_options;
     wp_enqueue_script( 'jquery' );
 	if ( is_singular() ) wp_enqueue_script( 'comment-reply' );
-	
+
 	// Sticky Menu
 	if ($bpxl_ublog_options['bpxl_sticky_menu'] == '1') {
 		wp_register_script( 'stickymenu', get_template_directory_uri() . '/js/stickymenu.js', array( 'jquery' ), '1.0', true );
 		wp_enqueue_script( 'stickymenu' );
 	}
-	
+
 	// Masonry
 	$bpxl_masonry_array = array(
 		'c_layout',
@@ -358,7 +358,7 @@ global $bpxl_ublog_options;
 		wp_register_script( 'masonry', get_template_directory_uri() . '/js/masonry.pkgd.min.js', array( 'jquery' ), '3.1.5', true );
 		wp_enqueue_script( 'masonry' );
 	}
-	
+
 	// Required jQuery Scripts
     wp_register_script( 'theme-scripts', get_template_directory_uri() . '/js/theme-scripts.js', array( 'jquery' ), '1.0', true );
     wp_enqueue_script( 'theme-scripts' );
@@ -371,13 +371,13 @@ add_action( 'wp_enqueue_scripts', 'bpxl_scripts' );
 function bpxl_admin_scripts() {
     wp_register_script( 'admin-scripts', get_template_directory_uri() . '/js/admin-scripts.js', array( 'jquery' ), '1.0', true );
     wp_enqueue_script( 'admin-scripts' );
-	
+
     wp_register_script( 'select2', get_template_directory_uri() . '/js/select2.js', array( 'jquery' ), '1.0', true );
     wp_enqueue_script( 'select2' );
-	
+
 	wp_register_style( 'select2', get_template_directory_uri() . '/css/select2.css' );
 	wp_enqueue_style( 'select2' );
-	
+
 	wp_register_style( 'font-awesome', get_template_directory_uri() . '/css/font-awesome.css' );
 	wp_enqueue_style( 'font-awesome' );
 }
@@ -450,7 +450,7 @@ include("inc/widgets/widget-tweets.php"); // Tweets Widget
 include("inc/widgets/widget-video.php"); // Video Widget
 include("inc/widgets/widget-slider.php"); // Slider Widget
 include("inc/nav-walker.php"); // Nav Walker Class
-	
+
 /*-----------------------------------------------------------------------------------*/
 /*	Exceprt Length
 /*-----------------------------------------------------------------------------------*/
@@ -584,7 +584,7 @@ function bpxl_breadcrumb() {
 		}
 	elseif (is_search()) {
 		echo "&nbsp;&nbsp;/&nbsp;&nbsp;";
-		echo"Search Results"; 
+		echo"Search Results";
 		}
 }
 
@@ -658,8 +658,8 @@ function bpxl_comment($comment, $args, $depth) {
 /*	Pagination
 /*-----------------------------------------------------------------------------------*/
 function bpxl_pagination($pages = '', $range = 2)
-{  
-     $showitems = ($range * 2)+1;  
+{
+     $showitems = ($range * 2)+1;
 
      global $paged;
      if(empty($paged)) $paged = 1;
@@ -682,7 +682,7 @@ function bpxl_pagination($pages = '', $range = 2)
              }
          }
 
-         if ($paged < $pages && $showitems < $pages) echo "<a href='".get_pagenum_link($paged + 1)."'>&rsaquo;</a>";  
+         if ($paged < $pages && $showitems < $pages) echo "<a href='".get_pagenum_link($paged + 1)."'>&rsaquo;</a>";
          if ($paged < $pages-1 &&  $paged+$range-1 < $pages && $showitems < $pages) echo "<a href='".get_pagenum_link($pages)."'>&raquo;</a>";
          echo "</div>\n";
      }
@@ -701,16 +701,16 @@ function prefix_insert_post_ads( $content ) {
 		$bpxl_ad_code = $bpxl_ublog_options['bpxl_para_ad_code'];
 		$bpxl_num_para = $bpxl_ublog_options['bpxl_para_ad'];
 	}
-	
+
 	//$bpxl_ad_code = '<div>Ads code goes here</div>';
 
 	if ( is_single() && ! is_admin() ) {
 		return prefix_insert_after_paragraph( $bpxl_ad_code, $bpxl_num_para, $content );
 	}
-	
+
 	return $content;
 }
- 
+
 function prefix_insert_after_paragraph( $insertion, $paragraph_id, $content ) {
 	$closing_p = '</p>';
 	$paragraphs = explode( $closing_p, $content );
@@ -724,7 +724,7 @@ function prefix_insert_after_paragraph( $insertion, $paragraph_id, $content ) {
 			$paragraphs[$index] .= $insertion;
 		}
 	}
-	
+
 	return implode( '', $paragraphs );
 }
 

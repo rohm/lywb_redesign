@@ -1,4 +1,4 @@
-
+/* Testing */
 @import "variables.less";
 @import "mixins.less";
 @import "grid.less";
@@ -249,6 +249,52 @@ sup {
     margin:0 auto;
     width:100%;
 }
+
+// ADSLICE
+// ---------------------------------------------------
+
+.adslice {
+text-align: center;
+background-color: #B02D4F;
+.box-shadow(0 3px 0 rgba(0,0,0,.15));
+z-index:9;
+width: 100%;
+
+  p {
+    margin: 0;
+    padding: .4em 0;
+    color: #fff;
+  }
+  .countdown-amount {
+    font-weight: bold;
+    margin: 0 2px 0 10px;
+    color: #fff;
+  }
+  .countdown-period {
+    font-size: .8em;
+    text-transform: none;
+    color: #ddd;
+  }
+  .btn {
+    background-color: @brand-primary;
+    padding:  10px 10px 8px;
+    position: relative;
+    top: -1px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    text-shadow: none;
+    color: #fff;
+    border-color: darken(@brand-primary, 10%);
+    &:hover {
+      background-color: #000;
+    }
+  }
+}
+// HEADER
+// ---------------------------------------------------
+
 .header {
     clear:both;
     margin:0 auto;
@@ -260,15 +306,17 @@ sup {
     #logo {
         display:inline-block;
         margin:0;
-		margin-bottom: -8px !important;
+				margin-bottom: -8px !important;
         img {
             float:left;
+						max-width: 85%;
         }
     }
     a {
         // color:#fff;
     }
 }
+
 .social-links {
     float:left;
 		margin-top: 4px;
@@ -354,12 +402,12 @@ sup {
 	    display:block;
 	    height:6px;
 	    width:98%;
-    
+
 	}
 }
 .top-bar {
 	background-color: transparent !important;
-	
+
 	nav.secondary-nav {
 		display: inline-block;
 		margin-left: 1%;
@@ -371,7 +419,7 @@ sup {
 			font-size: 1em;
 			font-weight: 600;
 			font-family: @font-family-base;
-			border-radius: 0; 
+			border-radius: 0;
 			border: 1px solid #ddd;
 			color: @text-color;
 			text-transform: uppercase;
@@ -697,14 +745,14 @@ ul.menu#menu-footer {
 		display: inline;
 		margin:  0 3%;
 		&:after {
-			
+
 		}
 		> a {
 			color: @link-color;
 			&:hover {
 				color: darken(@link-color, 10%);
 			}
-			
+
 		}
 	}
 }
@@ -1008,9 +1056,11 @@ ul.menu#menu-footer {
 }
 .featured-single {
     margin-bottom:20px;
-    img {
-        float:left;
-    }
+		img {
+			margin: 0 auto;
+			display: block;
+			float: none;
+		}
 }
 .post {
     margin-bottom:30px;
@@ -1529,6 +1579,18 @@ article img.left,article img.alignleft,.wp-caption.alignleft {
     position:absolute;
     top:0;
 }
+.pullquote {
+	width: 35%;
+	float: right;
+	border-left: 1px dotted #ccc;
+	padding: 5px 0 5px 15px;
+	margin: 0 0 10px 10px;
+	color: #67a33c;
+	font-size: 1.2em;
+	line-height: 1.7;
+	/* font-weight: bold; */
+	font-style: italic;
+}
 .post address,.content-page address {
     margin-bottom:20px;
 }
@@ -1572,7 +1634,7 @@ article img.left,article img.alignleft,.wp-caption.alignleft {
         font-size:16px;
         line-height:26px;
     }
-    
+
 		.prev-link,
 		.next-link {
 		    overflow:hidden;
@@ -2280,7 +2342,7 @@ ol.commentlist {
 			margin-left: 10px;
 		}
 	}
-	
+
 }
 @media (max-width: 767px) {
 	.copyright {
@@ -3289,13 +3351,13 @@ header {
 /* Rounded corners */
 .tipsy-inner { border-radius: 3px; -moz-border-radius:3px; -webkit-border-radius:3px; }
 .tipsy-arrow { position:absolute; width:0; height:0; line-height:0; border:5px dashed #000; }
-  
+
 /* Rules to colour arrows */
 .tipsy-arrow-n { border-bottom-color: #000; }
 .tipsy-arrow-s { border-top-color: #000; }
 .tipsy-arrow-e { border-left-color: #000; }
 .tipsy-arrow-w { border-right-color: #000; }
-  
+
 .tipsy-n .tipsy-arrow { top: 0px; left: 50%; margin-left: -5px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent; }
 .tipsy-nw .tipsy-arrow { top: 0; left: 10px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent;}
 .tipsy-ne .tipsy-arrow { top: 0; right: 10px; border-bottom-style: solid; border-top: none;  border-left-color: transparent; border-right-color: transparent;}
@@ -3311,7 +3373,7 @@ header {
 .flexslider .slides img {width: 100%; display: block;}
 .flex-pauseplay span {text-transform: capitalize;}
 
-.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
 
 .no-js .slides > li:first-child {display: block;}
 
@@ -3366,7 +3428,7 @@ header {
 .flexslider:hover .flex-next {opacity: 0.8; }
 .flexslider:hover .flex-prev {opacity: 0.8; }
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {opacity: 1;}
-.flex-direction-nav .flex-disabled {/*opacity: .3!important; filter:alpha(opacity=30);*/ cursor: default; display:none } 
+.flex-direction-nav .flex-disabled {/*opacity: .3!important; filter:alpha(opacity=30);*/ cursor: default; display:none }
 .flex-direction-nav a {
 	background:#fff;
 	color:#000;
@@ -3407,9 +3469,9 @@ header {
     height: 10px;
 	margin-bottom:10px;
     text-indent: -9999px;
-    
+
 }
-.flexslider .flex-control-nav  { 
+.flexslider .flex-control-nav  {
 	left:0;
 	bottom:10px;
 	text-align:center;
@@ -3525,5 +3587,77 @@ label.select:before {
 .page-template-default {
 	.post-home {
 		padding: 30px 60px;
+	}
+}
+
+.pagename-about,
+.page-id-3754 {
+
+	.author {
+		.make-sm-column(6);
+		.box-sizing(border-box);
+		img {
+			background-color: transprent;
+			max-width: 150px;
+			height: auto;
+			border-radius: 150px;
+		}
+	}
+}
+
+@media print {
+	body, * {
+		background: #fff !important;
+	}
+	.main-container {
+		width: 6in;
+		margin: 0 auto;
+		display: block;
+	}
+	.top-bar,
+	.main-navigation,
+	.post-comments,
+	.edit-link,
+	.post-share,
+	.header-top,
+	aside.sidebar,
+	footer.footer,
+	.copyright-nav,
+	.breadcrumbs, 
+	.featured-single,
+	.post-navigation,
+	.relatedPosts,
+	.comment-respond,
+	.author-box, 
+	.fa-user {
+		display: none !important;
+	}
+	.entry-title,
+	.post-meta {
+		text-align: left;
+	}
+	.post-meta > span::before {
+		content: "";
+	}
+	.content-area {
+		width: 100%;
+		margin: 0 auto;
+		display: block;
+		float: none;
+	}
+	.content-home .post-box, .content-archive .post-box, .content-detail, .norm-pagination, .author-desc-box {
+		border: none !important;
+	}
+	.post-home {
+		padding: 0;
+	}
+	.header {
+		padding: 0;
+		text-align: left;
+	}
+	#logo {
+		img {
+			max-width: 200px;
+		}
 	}
 }

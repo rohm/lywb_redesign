@@ -16,10 +16,24 @@
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
+
 <?php wp_head(); ?>
+<script type="text/javascript" src="https://www.reviveourhearts.com/static/js/jquery.plugin.min.js"></script>
+<script type="text/javascript" src="https://www.reviveourhearts.com/static/js/jquery.countdown.min.js"></script>
+<script>
+		// Countdown
+		jQuery(document).ready(function ($) {
+				var fullPriceDate = new Date();
+				fullPriceDate = new Date(2014, 9 - 1, 15);
+				$('#defaultCountdown').countdown({until: fullPriceDate, format: 'DHm'});
+		});
+</script>
 </head>
 <?php if($bpxl_ublog_options['bpxl_layout_type'] != '1') { $layout_class = ' boxed-layout'; } ?>
 <body id="blog" <?php body_class('main'); ?> itemscope itemtype="http://schema.org/WebPage">
+	<div class="adslice">
+		<p><!-- Don't Be Left Out!  -->Experience a LIVE Teen Event at True Woman &rsquo;14.   <em>Normal pricing ends: <span id="defaultCountdown"></span></em>  <a class="btn" href="http://www.truewoman14.com/register/">Sign Up</a></p>
+	</div>
 	<div id="st-container" class="st-container">
 		<nav class="st-menu st-effect-4" id="menu-4">
 			<div id="close-button"><i class="fa fa-times"></i></div>
@@ -35,14 +49,14 @@
 				<ul class="menu">
 					<li><a href="/contact-us/" class="contact-us">Contact Us</a></li>
 					<li><a href="https://www.reviveourhearts.com/donate/" class="donate">Donate</a></li>
-				
-				
+
+
 		</nav>
 		<div class="main-container<?php if($bpxl_ublog_options['bpxl_layout_type'] != '1') { echo $layout_class; } ?>">
 			<div class="st-pusher">
 				<!-- START HEADER -->
 				<header class="main-header clearfix">
-					<?php if($bpxl_ublog_options['bpxl_header_style'] == 'header_one' || $bpxl_ublog_options['bpxl_header_style'] == 'header_three') { 
+					<?php if($bpxl_ublog_options['bpxl_header_style'] == 'header_one' || $bpxl_ublog_options['bpxl_header_style'] == 'header_three') {
 						get_template_part('inc/nav-one');
 					} ?>
 					<div class="header clearfix">

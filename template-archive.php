@@ -59,17 +59,17 @@ Template Name: Archives
 												<?php wp_get_archives( array( 'type' => 'yearly', 'limit' => 12 ) ); ?>
 											</ul>
 										</div>
-										<div class="archive-col">
-											<h3 class="widget-title uppercase"><?php _e('Archives by Tags','bloompixel'); ?></h3>
+										<!-- <div class="archive-col">
+											<h3 class="widget-title uppercase">< ?php _e('Archives by Tags','bloompixel'); ? ></h3>
 											<ul>
-											<?php
+											< ?php
 												$tags = get_tags( array('orderby' => 'count', 'order' => 'DESC') );
 												foreach ( (array) $tags as $tag ) {
 												echo '<li><a href="' . get_tag_link ($tag->term_id) . '" rel="tag">' . $tag->name . '</a></li>';
 												}
-											?>
+											? >
 											</ul>
-										</div>
+										</div> -->
 										<div class="archive-col">
 											<h3 class="widget-title uppercase"><?php _e('Authors','bloompixel'); ?></h3>
 											<ul>
