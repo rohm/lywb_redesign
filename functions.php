@@ -798,6 +798,46 @@ update_user_meta( $user_id, 'pinterest', $_POST['pinterest'] );
 update_user_meta( $user_id, 'dribbble', $_POST['dribbble'] );
 }
 
+function contributors() {
+	global $wpdb;
+
+		$authors = $wpdb->get_results("SELECT ID, user_nicename from $wpdb->users ORDER BY display_name");
+
+		foreach($authors as $author) {
+		echo "<div class=\"author-box author-desc-box\">";
+		echo "<h4 class=\"author-box-title widget-title uppercase\">";
+		echo  _e('Author Description','bloompixel'); 
+		echo "</h4>";
+		echo "<div class=\"author-box-content\"><div class=\"author-box-avtar\">";
+		echo get_avatar($author->ID);
+		echo "</div>";
+		
+		echo "<div class=\"author-info-container\">";
+		echo "<div class=\"author-info\">";
+		echo "<div class=\"author-head\"><h5>";
+		echo  the_author_meta('display_name');
+		echo "</h5";
+		echo "</div>";
+		echo "<p>";
+		echo the_author_meta('description');
+		echo "</p>";
+		echo "<div class=\"author-social\">";
+		echo "<span class=\"author-fb\"><a class=\"fa fa-facebook\" href=\"";
+		echo get_the_author_meta('facebook');
+		echo "\"></a></span>";
+		echo "<span class=\"author-fb\"><a class=\"fa fa-twitter\" href=\"";
+		echo get_the_author_meta('twitter');
+		echo "\"></a></span>";
+		echo "</div>";
+		echo "</div>";
+		echo "</div>";
+		echo "</div>";
+		echo "</div>";
+		echo "</div>";
+	}
+}
+
+
 /*-----------------------------------------------------------------------------------*/
 /*	Automatic Theme Updates
 /*-----------------------------------------------------------------------------------*/
@@ -809,3 +849,4 @@ $author = 'Simrandeep Singh';
 load_template( trailingslashit( get_template_directory() ) . 'inc/wp-theme-upgrader/envato-wp-theme-updater.php' );
 Envato_WP_Theme_Updater::init( $username, $apikey, $author );
 ?>
+

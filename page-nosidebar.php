@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Authors List
+ * Template Name: Page - No Sidebar
  */
 ?>
 <?php get_header(); ?>

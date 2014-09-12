@@ -31,9 +31,8 @@
 </head>
 <?php if($bpxl_ublog_options['bpxl_layout_type'] != '1') { $layout_class = ' boxed-layout'; } ?>
 <body id="blog" <?php body_class('main'); ?> itemscope itemtype="http://schema.org/WebPage">
-	<div class="adslice">
-		<p><!-- Don't Be Left Out!  -->Experience a LIVE Teen Event at True Woman &rsquo;14.   <em>Normal pricing ends: <span id="defaultCountdown"></span></em>  <a class="btn" href="http://www.truewoman14.com/register/">Sign Up</a></p>
-	</div>
+	<?php $mySnippet = PostSnippets::getSnippet("countdownTimer");
+	echo $mySnippet; ?>
 	<div id="st-container" class="st-container">
 		<nav class="st-menu st-effect-4" id="menu-4">
 			<div id="close-button"><i class="fa fa-times"></i></div>
