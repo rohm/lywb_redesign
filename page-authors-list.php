@@ -25,60 +25,63 @@
 								<?php }?>
 								<div class="page-content">
 									<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-										<div class="post-box">
-											<?php
+										<div class="archive-content-area">
+											<div class="content-archive" style="margin-top: 20px ">
+												<?php
 
-											// Get the authors from the database ordered by user nicename
-												global $wpdb;
-												$query = "SELECT ID, user_nicename from $wpdb->users ORDER BY user_nicename";
-												$author_ids = $wpdb->get_results($query);
+												// Get the authors from the database ordered by user nicename
+													global $wpdb;
+													$query = "SELECT ID, user_nicename from $wpdb->users ORDER BY user_nicename";
+													$author_ids = $wpdb->get_results($query);
 
-											// Loop through each author
-												foreach($author_ids as $author) :
+												// Loop through each author
+													foreach($author_ids as $author) :
 
-												// Get user data
-													$curauth = get_userdata($author->ID);
+													// Get user data
+														$curauth = get_userdata($author->ID);
 
-												// If user level is above 0 or login name is "admin", display profile
-													if($curauth->user_level > 0 || $curauth->user_login == 'admin') :
+													// If user level is above 0 or login name is "admin", display profile
+														if($curauth->user_level == 2 && $curauth->ID !== 5)  : 
 
-													// Get link to author page
-														$user_link = get_author_posts_url($curauth->ID);
+														// Get link to author page
+															$user_link = get_author_posts_url($curauth->ID);
 
-													// Set default avatar (values = default, wavatar, identicon, monsterid)
-														$avatar = 'wavatar';
-											?>
-											<div class="author-box author-desc-box">
-												<div class="author-box-content">
-													<div class="author-box-avtar">
-														<a href="<?php echo $user_link; ?>" title="<?php echo $curauth->display_name; ?>">
-															<?php echo get_avatar($curauth->user_email, '96', $avatar); ?>
-														</a>
-													</div>
-													<div class="author-info-container">
-														<div class="author-info">
-															<div class="author-head">
-																<h5><a href="<?php echo $user_link; ?>" title="<?php echo $curauth->display_name; ?>"><?php echo $curauth->display_name; ?></a></h5>
-															</div>
-															<p>
-																<?php echo $curauth->description; ?>
-															</p>
-															<div class="author-social">
-																<?php if ($curauth->facebook) { ?><span class="author-fb"><a class="fa fa-facebook" href="http://www.facebook.com/<?php echo $curauth->facebook; ?>"></a></span><?php } ?>
-																<?php if ($curauth->twitter) { ?><span class="author-twitter"><a class="fa fa-twitter" href="http://twitter.com/<?php echo $curauth->twitter; ?>"></a></span><?php } ?>
-																<?php if ($curauth->googleplus) { ?><span class="author-googleplus"><a class="fa fa-google-plus" href="http://www.googleplus.com/<?php echo $curauth->googleplus; ?>"></a></span><?php } ?>
-																<?php if ($curauth->linkedin) { ?><span class="author-linkedin"><a class="fa fa-linkedin" href="http://linkedin.com/<?php echo $curauth->linkedin; ?>"></a></span><?php } ?>
-																<?php if ($curauth->pinterest) { ?><span class="author-fb"><a class="fa fa-pinterest" href="http://www.pinterest.com/<?php echo $curauth->pinterest; ?>"></a></span><?php } ?>
-																<?php if ($curauth->dribbble) { ?><span class="author-dribbble"><a class="fa fa-dribbble" href="http://www.dribbble.com/<?php echo $curauth->dribbble; ?>"></a></span><?php } ?>
-															</div>
+														// Set default avatar (values = default, wavatar, identicon, monsterid)
+															$avatar = 'wavatar';
+															
+												?>
+												<div class="author-box author-desc-box">
+													<div class="author-box-content">
+														<div class="author-box-avtar">
+															<a href="<?php echo $user_link; ?>" title="<?php echo $curauth->display_name; ?>">
+																<?php echo get_avatar($curauth->user_email, '96', $avatar); ?>
+															</a>
+														</div>
+														<div class="author-info-container">
+															<div class="author-info">
+																<div class="author-head">
+																	<h5><a href="<?php echo $user_link; ?>" title="<?php echo $curauth->display_name; ?>"><?php echo $curauth->display_name; ?></a></h5>
+																</div>
+																<p>
+																	<?php echo $curauth->description; ?>
+																</p>
+																<div class="author-social">
+																	<?php if ($curauth->facebook) { ?><span class="author-fb"><a class="fa fa-facebook" href="<?php echo $curauth->facebook; ?>"></a></span><?php } ?>
+																	<?php if ($curauth->twitter) { ?><span class="author-twitter"><a class="fa fa-twitter" href="<?php echo $curauth->twitter; ?>"></a></span><?php } ?>
+																	<?php if ($curauth->googleplus) { ?><span class="author-googleplus"><a class="fa fa-google-plus" href="<?php echo $curauth->googleplus; ?>"></a></span><?php } ?>
+																	<?php if ($curauth->linkedin) { ?><span class="author-linkedin"><a class="fa fa-linkedin" href="<?php echo $curauth->linkedin; ?>"></a></span><?php } ?>
+																	<?php if ($curauth->pinterest) { ?><span class="author-fb"><a class="fa fa-pinterest" href="<?php echo $curauth->pinterest; ?>"></a></span><?php } ?>
+																	<?php if ($curauth->dribbble) { ?><span class="author-dribbble"><a class="fa fa-dribbble" href="<?php echo $curauth->dribbble; ?>"></a></span><?php } ?>
+																</div>
 
 												
+															</div>
 														</div>
 													</div>
 												</div>
+												<?php endif; ?>
+												<?php endforeach; ?>
 											</div>
-											<?php endif; ?>
-											<?php endforeach; ?>
 										</div>
 									</article><!--blog post-->
 								</div>	
