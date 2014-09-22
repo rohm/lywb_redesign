@@ -18,16 +18,7 @@
 <![endif]-->
 
 <?php wp_head(); ?>
-<script type="text/javascript" src="https://www.reviveourhearts.com/static/js/jquery.plugin.min.js"></script>
-<script type="text/javascript" src="https://www.reviveourhearts.com/static/js/jquery.countdown.min.js"></script>
-<script>
-		// Countdown
-		jQuery(document).ready(function ($) {
-				var fullPriceDate = new Date();
-				fullPriceDate = new Date(2014, 9 - 1, 15);
-				$('#defaultCountdown').countdown({until: fullPriceDate, format: 'DHm'});
-		});
-</script>
+
 </head>
 <?php if($bpxl_ublog_options['bpxl_layout_type'] != '1') { $layout_class = ' boxed-layout'; } ?>
 <body id="blog" <?php body_class('main'); ?> itemscope itemtype="http://schema.org/WebPage">
