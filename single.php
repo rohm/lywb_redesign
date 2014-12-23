@@ -164,6 +164,14 @@
 								$post = $orig_post;
 								wp_reset_query(); ?>
 							<?php }?>
+							<div class="disclaimer" style="font-size: .9em; padding: 20px 30px; font-style: italic; color: #888;">
+								<p>HEY, GIRLS! We love hearing from you, but feel limited in the ways we can help. For one thing, we&rsquo;re not trained counselors. If you’re seeking counsel, we encourage you to talk to your pastor or a godly woman in your life as they&rsquo;ll know more details and can provide you with ongoing accountability and help. Also, the following comments do not necessarily reflect the views of Revive Our Hearts. We reserve the right to remove comments which might be unhelpful, unsuitable, or inappropriate. We may edit or remove your comment if it:</p>
+								<ul>
+									<li>* Requests or gives personal information such as email address, address, or phone number.</li>
+									<li>* Attacks other readers.</li>
+									<li>* Uses vulgar or profane language.</li>
+								</ul>
+							</div>
 							<?php comments_template(); ?>
 							<?php endwhile; else : ?>
 								<div class="post">
