@@ -35,7 +35,7 @@ function bpxl_theme_setup() {
 	set_post_thumbnail_size( 150, 150, true );
 	add_image_size( 'featured', 713, 330, true ); //featured
 	add_image_size( 'featured395', 453, 163, true ); //featured370
-	add_image_size( 'related', 240, 111, true ); //related
+	add_image_size( 'related', 240, 185, true ); //related
 	add_image_size( 'widgetthumb', 90, 90, true ); //widgetthumb
 
 	// Load Localization Files
