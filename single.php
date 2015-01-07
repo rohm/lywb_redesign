@@ -129,9 +129,9 @@
 										<li>
 											<a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" rel="nofollow">
 												<?php if ( has_post_thumbnail() ) { ?> 
-													<div class="relatedthumb"><?php the_post_thumbnail('related'); ?></div>
+													<div class="relatedthumb blah-blah-1"><?php the_post_thumbnail('related'); ?></div>
 												<?php } else { ?>
-													<div class="relatedthumb"><img width="240" height="185" src="<?php echo get_template_directory_uri(); ?>/images/240x185.png" class="attachment-featured wp-post-image" alt="<?php the_title(); ?>"></div>
+													<div class="relatedthumb"><img src="<?php echo get_template_directory_uri(); ?>/images/240x111.png" class="attachment-featured wp-post-image" alt="<?php the_title(); ?>"></div>
 												<?php } ?>
 											</a>
 											<?php
